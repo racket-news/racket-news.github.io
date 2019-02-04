@@ -4,14 +4,14 @@
   <title>Racket News: Racket News</title>
   <description>Racket News: Racket News</description>
   <link>http://racket-news.com/index.html</link>
-  <lastBuildDate>Fri, 01 Feb 2019 07:00:00 UT</lastBuildDate>
-  <pubDate>Fri, 01 Feb 2019 07:00:00 UT</pubDate>
+  <lastBuildDate>Fri, 01 Feb 2019 08:00:00 UT</lastBuildDate>
+  <pubDate>Fri, 01 Feb 2019 08:00:00 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Racket News - Issue 1</title>
    <link>http://racket-news.com/2019/02/racket-news-issue-1.html?utm_source=all&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-racket-news-com:-2019-02-racket-news-issue-1-html</guid>
-   <pubDate>Fri, 01 Feb 2019 07:00:00 UT</pubDate>
+   <pubDate>Fri, 01 Feb 2019 08:00:00 UT</pubDate>
    <author>Paulo Matos</author>
    <description>
 &lt;p&gt;Welcome to the first issue of &lt;a href="http://www.racket-lang.org/"&gt;Racket&lt;/a&gt; News. I am hoping this will be of interest to everyone in the Racket community so if there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/pulls"&gt;submit a PR&lt;/a&gt;.&lt;/p&gt;

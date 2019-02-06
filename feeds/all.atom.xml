@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Racket News: Racket News</title>
- <link rel="self" href="http://racket-news.com/feeds/all.atom.xml" />
- <link href="http://racket-news.com/index.html" />
- <id>urn:http-racket-news-com:-index-html</id>
+ <link rel="self" href="https://racket-news.com/feeds/all.atom.xml" />
+ <link href="https://racket-news.com/index.html" />
+ <id>urn:https-racket-news-com:-index-html</id>
  <updated>2019-02-01T08:00:00Z</updated>
  <entry>
   <title type="text">Racket News - Issue 1</title>
-  <link rel="alternate" href="http://racket-news.com/2019/02/racket-news-issue-1.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-racket-news-com:-2019-02-racket-news-issue-1-html</id>
+  <link rel="alternate" href="https://racket-news.com/2019/02/racket-news-issue-1.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-racket-news-com:-2019-02-racket-news-issue-1-html</id>
   <published>2019-02-01T08:00:00Z</published>
   <updated>2019-02-01T08:00:00Z</updated>
   <author>

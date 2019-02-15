@@ -22,7 +22,7 @@
  &lt;li&gt;
   &lt;p&gt;&lt;span style="font-weight: bold"&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt;&lt;/span&gt; has been announced. With two tracks to choose from: &lt;span style="font-style: italic"&gt;How to design languages&lt;/span&gt; and &lt;span style="font-style: italic"&gt;Beautiful Racket workshop&lt;/span&gt; by Racket heavyweights, it&amp;rsquo;s time to register. It&amp;rsquo;ll happen just before &lt;a href="https://con.racket-lang.org"&gt;RacketCon&lt;/a&gt;, on July 13-14.&lt;/p&gt;&lt;/li&gt;
  &lt;li&gt;
-  &lt;p&gt;On the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"&gt;Little language design/implementation guidance&lt;/a&gt;: Stephen De Gabrielle started an interesting thread on language design that definitely worth some time.&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;On the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"&gt;Little language design/implementation guidance&lt;/a&gt;: Stephen De Gabrielle started an interesting thread on language design that is definitely worth some time.&lt;/p&gt;&lt;/li&gt;
  &lt;li&gt;
   &lt;p&gt;&lt;/p&gt;
   &lt;div class="SIntrapara"&gt;Also on the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"&gt;Python&amp;rsquo;s append vs Racket&amp;rsquo;s append and helping novices understand the implications&lt;/a&gt;: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
@@ -50,7 +50,7 @@
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;div class="SIntrapara"&gt;A post on exceptions implementation and a few videos have his the web. Grab a cup of coffee (or your favourite beverage) and dig in.
+&lt;div class="SIntrapara"&gt;Here is a post on exceptions implementation and a few videos for you today. Grab a cup of coffee (or your favourite beverage) and dig in.
 &lt;/div&gt;
 
 &lt;div class="SIntrapara"&gt;
@@ -129,7 +129,7 @@
    &lt;tr&gt;
     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;[&lt;/span&gt;&lt;span class="RktSym"&gt;question-mark&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;65&lt;/span&gt;&lt;span class="RktPn"&gt;]&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
-&lt;p&gt;This is an incredibly interesting project with endless application, besides being an excellent showcase of Racket&amp;rsquo;s ability to create new languages with different evaluation models.&lt;/p&gt;
+&lt;p&gt;This is an incredibly interesting project with endless applications, besides being an excellent showcase of Racket&amp;rsquo;s ability to create new languages with different evaluation models.&lt;/p&gt;
 
 &lt;h1&gt;&lt;a name="(part._.Help_.Needed)"&gt;&lt;/a&gt;Help Needed&lt;/h1&gt;
 

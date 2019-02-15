@@ -22,21 +22,7 @@
 
 &lt;ul&gt;
  &lt;li&gt;
-  &lt;p&gt;&lt;span style="font-weight: bold"&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt;&lt;/span&gt; has been announced. With two tracks to choose from: &lt;span style="font-style: italic"&gt;How to design languages&lt;/span&gt; and &lt;span style="font-style: italic"&gt;Beautiful Racket workshop&lt;/span&gt; by Racket heavyweights, it&amp;rsquo;s time to register. It&amp;rsquo;ll happen just before &lt;a href="https://con.racket-lang.org"&gt;RacketCon&lt;/a&gt;, on July 13-14.&lt;/p&gt;&lt;/li&gt;
- &lt;li&gt;
-  &lt;p&gt;On the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"&gt;Little language design/implementation guidance&lt;/a&gt;: Stephen De Gabrielle started an interesting thread on language design that is definitely worth some time.&lt;/p&gt;&lt;/li&gt;
- &lt;li&gt;
-  &lt;p&gt;&lt;/p&gt;
-  &lt;div class="SIntrapara"&gt;Also on the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"&gt;Python&amp;rsquo;s append vs Racket&amp;rsquo;s append and helping novices understand the implications&lt;/a&gt;: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
-     &lt;/div&gt;
-  &lt;div class="SIntrapara"&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     &lt;p&gt;&lt;a href="https://www.draketo.de/py2guile"&gt;Python to Guile book&lt;/a&gt; by Arne Babenhauserheide&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;
-     &lt;p&gt;&lt;a href="https://github.com/racket/racket/wiki/Python-to-Racket"&gt;Python to Racket&lt;/a&gt; on the Racket Wiki started by Stephen de Gabrielle&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;
-     &lt;p&gt;&lt;a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/racket-python3.html"&gt;Racket vs Python3&lt;/a&gt; on the Benchmarks game&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;
+  &lt;p&gt;&lt;span style="font-weight: bold"&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt;&lt;/span&gt; has been announced. With two tracks to choose from: &lt;span style="font-style: italic"&gt;How to design languages&lt;/span&gt; and &lt;span style="font-style: italic"&gt;Beautiful Racket workshop&lt;/span&gt; by Racket heavyweights, it&amp;rsquo;s time to register. It&amp;rsquo;ll happen just before &lt;a href="https://con.racket-lang.org"&gt;RacketCon&lt;/a&gt;, on July 13-14.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
 
 &lt;h1&gt;&lt;a name="(part._.Upcoming_.Meetups)"&gt;&lt;/a&gt;Upcoming Meetups&lt;/h1&gt;
 
@@ -52,13 +38,29 @@
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;div class="SIntrapara"&gt;Here is a post on exceptions implementation and a few videos for you today. Grab a cup of coffee (or your favourite beverage) and dig in.
+&lt;div class="SIntrapara"&gt;A few blog posts and videos Here is a post on exceptions implementation and a few videos for you today. Grab a cup of coffee (or your favourite beverage) and dig in.
 &lt;/div&gt;
 
 &lt;div class="SIntrapara"&gt;
  &lt;ul&gt;
   &lt;li&gt;
    &lt;p&gt;&lt;a href="https://www.kimsereylam.com/lisp/racket/2019/01/30/implementing-exceptions-with-continuations-racket-lisp.html"&gt;Implementing Exceptions With Continuations Racket Lisp&lt;/a&gt;, by Kimserey Lam&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;On the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"&gt;Little language design/implementation guidance&lt;/a&gt;: Stephen De Gabrielle started an interesting thread on language design that is definitely worth some time.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;/p&gt;
+   &lt;div class="SIntrapara"&gt;Also on the mailing list &lt;a href="https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"&gt;Python&amp;rsquo;s append vs Racket&amp;rsquo;s append and helping novices understand the implications&lt;/a&gt;: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
+     &lt;/div&gt;
+   &lt;div class="SIntrapara"&gt;
+    &lt;ul&gt;
+     &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://www.draketo.de/py2guile"&gt;Python to Guile book&lt;/a&gt; by Arne Babenhauserheide&lt;/p&gt;&lt;/li&gt;
+     &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://github.com/racket/racket/wiki/Python-to-Racket"&gt;Python to Racket&lt;/a&gt; on the Racket Wiki started by Stephen de Gabrielle&lt;/p&gt;&lt;/li&gt;
+     &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/racket-python3.html"&gt;Racket vs Python3&lt;/a&gt; on the Benchmarks game&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;a href="https://alex-hhh.github.io/2019/02/racket-data-structures.html"&gt;An Overview of Common Racket Data Structures&lt;/a&gt;: Alex&amp;rsquo;s blog post on Racket Data structures, motivated by the Python vs Racket append threads linked to above.&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
    &lt;p&gt;&lt;a href="https://media.ccc.de/v/35c3-9800-how_to_teach_programming_to_your_loved_ones"&gt;How to teach programming to your loved ones&lt;/a&gt;, by Michael Sperber&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;

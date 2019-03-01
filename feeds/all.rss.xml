@@ -14,7 +14,7 @@
    <pubDate>Fri, 01 Mar 2019 08:00:00 UT</pubDate>
    <author>Paulo Matos</author>
    <description>
-&lt;p&gt;Welcome to the third issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News. If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please [send me an email](mailto:pmatos@linki.tools or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Welcome to the third issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News. If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Not long after the last issue, Jack Firth pointed out that with Content Tracking Enabled in Firefox the subscription box for Mailchimp (the newsletter format) does not work. So if you wish to register you have to disable it temporarily. If you happen to know how to fix this &lt;a href="mailto:pmatos@linki.tools"&gt;please get in touch&lt;/a&gt;.&lt;/p&gt;
 
@@ -79,25 +79,32 @@
 
 &lt;table&gt;
  &lt;tr&gt;
-  &lt;td&gt;Number of master Commits&lt;/td&gt; 
+  &lt;td&gt;Number of master Commits&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;117&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;Number of Opened PRs&lt;/td&gt; 
+  &lt;td&gt;Number of Opened PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;Number of Merged PRs&lt;/td&gt; 
+  &lt;td&gt;Number of Merged PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;Number of Opened Bugs&lt;/td&gt; 
+  &lt;td&gt;Number of Opened Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;Number of Closed Bugs&lt;/td&gt; 
+  &lt;td&gt;Number of Closed Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;14&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;Bugs open&lt;/td&gt; 
+  &lt;td&gt;Bugs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;286&lt;/td&gt;&lt;/tr&gt;
  &lt;tr&gt;
-  &lt;td&gt;PRs open&lt;/td&gt; 
+  &lt;td&gt;PRs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
   &lt;td&gt;87&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;Contributions by (12):&lt;/p&gt;

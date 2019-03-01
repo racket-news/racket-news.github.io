@@ -4,7 +4,146 @@
  <link rel="self" href="https://racket-news.com/feeds/all.atom.xml" />
  <link href="https://racket-news.com/index.html" />
  <id>urn:https-racket-news-com:-index-html</id>
- <updated>2019-02-15T08:00:00Z</updated>
+ <updated>2019-03-01T08:00:00Z</updated>
+ <entry>
+  <title type="text">Racket News - Issue 3</title>
+  <link rel="alternate" href="https://racket-news.com/2019/03/racket-news-issue-3.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-racket-news-com:-2019-03-racket-news-issue-3-html</id>
+  <published>2019-03-01T08:00:00Z</published>
+  <updated>2019-03-01T08:00:00Z</updated>
+  <author>
+   <name>Paulo Matos</name></author>
+  <content type="html">
+&lt;p&gt;Welcome to the third issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News. If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please [send me an email](mailto:pmatos@linki.tools or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not long after the last issue, Jack Firth pointed out that with Content Tracking Enabled in Firefox the subscription box for Mailchimp (the newsletter format) does not work. So if you wish to register you have to disable it temporarily. If you happen to know how to fix this &lt;a href="mailto:pmatos@linki.tools"&gt;please get in touch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;p&gt;There were quite a few interesting threads in the mailing list recently but two of note are:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://groups.google.com/d/msg/racket-users/A2mIizaE6mk/b8MQJtfGBAAJ"&gt;R6RS History&lt;/a&gt; started by Jack Firth inquiring about the history surrounding r6rs.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://groups.google.com/d/msg/racket-users/pyfANjBvDFU/LHAR04dpBgAJ"&gt;performance, json&lt;/a&gt; started by Brian Craft he inquires about why json parsing is array is so slow. This triggered some work from Matthew Flatt to &lt;a href="https://github.com/racket/racket/commit/be828b184ca2e2dadaa9be00c194a47146099f90"&gt;improve the situation&lt;/a&gt; - according to the commit message things should be now 4 to 8 times faster.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://programmingisreallyfun.wordpress.com"&gt;Abby&amp;rsquo;s blog&lt;/a&gt; is a new blog by Abby Jones who has been very active in the Slack channel, learning all things Racket and decided to write about her journey. Well done Abby!&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://alex-hhh.github.io/2019/02/data-visualization-dashboard.html"&gt;Building a Data Visualization Dashboard in Racket&lt;/a&gt;: Sorry Alex, somehow I missed this one in my last issue. Another great post!;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://beautifulracket.com/appendix/why-lop-why-racket.html"&gt;Why LOP? Why Racket?&lt;/a&gt;: Another beautiful appendix to the &lt;a href="https://beautifulracket.com/"&gt;Beautiful Racket&lt;/a&gt; book by Matthew Butterick;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1 id="new-releases"&gt;New Releases&lt;/h1&gt;
+
+&lt;p&gt;It is quite hard to manually track new releases in the Racket world because most libraries lack a release announcement process. This week I was asked to feature the release of a Racket library, so here it is.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://docs.racket-lang.org/peg/index.html"&gt;PEG v0.3&lt;/a&gt; released. From the website: &amp;ldquo;PEG can be thought of as an advance over regex. It can match more languages (for example balanced brackets) and can be paired with semantic actions to produce structured results from a parse.&amp;rdquo;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://github.com/wilbowma/scribble-minted"&gt;Scribble Minted&lt;/a&gt; newly released. From the website: &amp;ldquo;A small Scribble library with support for rendering code using pygmentize.&amp;rdquo;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;If you know of library releases or maybe your own libraries and you want them to be featured, please &lt;a href="mailto:pmatos@linki.tools"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="project-in-the-spotlight"&gt;Project in the Spotlight&lt;/h1&gt;
+
+&lt;p&gt;For this issue I would like to highlight &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; by Greg Hendershott. It powers not only the Racket News website but &lt;a href="https://github.com/greghendershott/frog/wiki/Frogroll"&gt;quite a few others&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From the website:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;Frog is a static web site generator written in Racket.&lt;/p&gt;
+ &lt;p&gt;You write content in Markdown or Scribble. You generate files. To deploy, you push them to a GitHub Pages repo (or copy them to Amazon S3, or whatever).&lt;/p&gt;
+ &lt;p&gt;Posts get a variety of automatic blog features.&lt;/p&gt;
+ &lt;p&gt;You can also create non-post pages.&lt;/p&gt;
+ &lt;p&gt;Pygments handles syntax highlighting for code blocks.&lt;/p&gt;
+ &lt;p&gt;The generated site uses Bootstrap, which is responsive, automatically adapting to various screen sizes.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h1 id="upcoming-meetups"&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="http://bobkonf.de/2019/"&gt;Bob2019&lt;/a&gt; - Right before Racketfest, also in Berlin, Germany there will be a few Rackety related things going on like a talk by &lt;a href="https://bobkonf.de/2019/krishnamurthi.html"&gt;Shriram Krishnamurthi&lt;/a&gt; and a tutorial by &lt;a href="https://bobkonf.de/2019/alama.html"&gt;Jesse Alama&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://racketfest.com/"&gt;RacketFest&lt;/a&gt; - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out&amp;hellip; again!&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt; - taught by Racket heavyweights it&amp;rsquo;s your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 8&amp;ndash;12.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2019&lt;/a&gt; - taking place in Salt Lake City, US on July 13, 14, just after Racket School.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1 id="help-needed"&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors? I would love to hear about it.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://racket-news.com"&gt;Racket News&lt;/a&gt;: Besides the obvious, &lt;em&gt;What would you like to see next?&lt;/em&gt; I could use a hand to make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSSy stuff;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://github.com/LinkiTools/ChezScheme/tree/wip-riscv"&gt;Chez on RISC-V&lt;/a&gt;: &lt;a href="https://www.eetimes.com/document.asp?doc_id=1334311#"&gt;RISC-V is on the verge of broad adoption&lt;/a&gt; and I would like to see Racket running on RISC-V asap. That means getting Chez on RISC-V&amp;hellip; if you are interested in compilers, architectures, and Racket, join in the fun.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1 id="stats-of-mention"&gt;Stats of mention&lt;/h1&gt;
+
+&lt;p&gt;Some data about how Racket development did during the month of February, 2019.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of master Commits&lt;/td&gt; 
+  &lt;td&gt;117&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened PRs&lt;/td&gt; 
+  &lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Merged PRs&lt;/td&gt; 
+  &lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened Bugs&lt;/td&gt; 
+  &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Closed Bugs&lt;/td&gt; 
+  &lt;td&gt;14&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Bugs open&lt;/td&gt; 
+  &lt;td&gt;286&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;PRs open&lt;/td&gt; 
+  &lt;td&gt;87&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Contributions by (12):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Ben Greenman&lt;/li&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;Jesse Alama&lt;/li&gt;
+ &lt;li&gt;Matthew Flatt&lt;/li&gt;
+ &lt;li&gt;Paulo Matos&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;pedagand&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;Robby Findler&lt;/li&gt;
+ &lt;li&gt;Ryan Culpepper&lt;/li&gt;
+ &lt;li&gt;Ryan Kramer&lt;/li&gt;
+ &lt;li&gt;Sam Tobin-Hochstadt&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;shhyou&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Of which, making the list the first time this year (6):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Jesse Alama&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;pedagand&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;Ryan Kramer&lt;/li&gt;
+ &lt;li&gt;Sam Tobin-Hochstadt&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;shhyou&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1 id="jobs"&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="contributors"&gt;Contributors&lt;/h1&gt;
+
+&lt;p&gt;Thanks to&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;code&gt;rain-1&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;for his/her contributions to this issue.&lt;/p&gt;
+
+&lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT Team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</content></entry>
  <entry>
   <title type="text">Racket News - Issue 2</title>
   <link rel="alternate" href="https://racket-news.com/2019/02/racket-news-issue-2.html?utm_source=all&amp;utm_medium=Atom" />

@@ -24,7 +24,7 @@
 
 &lt;ul&gt;
  &lt;li&gt;&lt;a href="https://groups.google.com/d/msg/racket-users/A2mIizaE6mk/b8MQJtfGBAAJ"&gt;R6RS History&lt;/a&gt; started by Jack Firth inquiring about the history surrounding r6rs.&lt;/li&gt;
- &lt;li&gt;&lt;a href="https://groups.google.com/d/msg/racket-users/pyfANjBvDFU/LHAR04dpBgAJ"&gt;performance, json&lt;/a&gt; started by Brian Craft he inquires about why json parsing is array is so slow. This triggered some work from Matthew Flatt to &lt;a href="https://github.com/racket/racket/commit/be828b184ca2e2dadaa9be00c194a47146099f90"&gt;improve the situation&lt;/a&gt; - according to the commit message things should be now 4 to 8 times faster.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://groups.google.com/d/msg/racket-users/pyfANjBvDFU/LHAR04dpBgAJ"&gt;performance, json&lt;/a&gt; started by Brian Craft. He inquires why JSON parsing is so slow. This triggered some work from Matthew Flatt to &lt;a href="https://github.com/racket/racket/commit/be828b184ca2e2dadaa9be00c194a47146099f90"&gt;improve the situation&lt;/a&gt; - according to the commit message things should be now 4 to 8 times faster.&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://programmingisreallyfun.wordpress.com"&gt;Abby&amp;rsquo;s blog&lt;/a&gt; is a new blog by Abby Jones who has been very active in the Slack channel, learning all things Racket and decided to write about her journey. Well done Abby!&lt;/li&gt;&lt;/ul&gt;
 
 &lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
@@ -145,6 +145,10 @@
  &lt;li&gt;&lt;code&gt;rain-1&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
 
 &lt;p&gt;for his/her contributions to this issue.&lt;/p&gt;
+
+&lt;h1 id="post-publication-edits"&gt;Post publication edits&lt;/h1&gt;
+
+&lt;p&gt;Thanks to Jens Axel Søgaard who has pointed me to an issue with a non-sensical sentence in the original issue. This has now been fixed.&lt;/p&gt;
 
 &lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
 

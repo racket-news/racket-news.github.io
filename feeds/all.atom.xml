@@ -66,7 +66,12 @@
 
 &lt;p&gt;The project for this issue is &lt;a href="https://github.com/soegaard/metapict/"&gt;Metapict&lt;/a&gt; by Jens Axel-Soegaard. I find this to be one of the most underrated Racket projects I know of. More people should know about it and use it!&lt;/p&gt;
 
-&lt;p&gt;From the docs: &amp;gt;The metapict library provides functions and data structures useful for generating picts. The library includes support for points, vectors, Bezier curves, and, general curves. &amp;gt; &amp;gt;The algorithm used to calculate a nice curve from points and tangents is the same as the one used in MetaPost. &amp;gt; &amp;gt;With this library I to hope narrow the gap between Scribble and LaTeX + MetaPost/Tikz. If you find any features in MetaPost or Tikz that you miss, don’t hesitate to mail me.&lt;/p&gt;
+&lt;p&gt;From the docs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;The metapict library provides functions and data structures useful for generating picts. The library includes support for points, vectors, Bezier curves, and, general curves.&lt;/p&gt;
+ &lt;p&gt;The algorithm used to calculate a nice curve from points and tangents is the same as the one used in MetaPost.&lt;/p&gt;
+ &lt;p&gt;With this library I to hope narrow the gap between Scribble and LaTeX + MetaPost/Tikz. If you find any features in MetaPost or Tikz that you miss, don’t hesitate to mail me.&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;div id="meetups"&gt;&lt;/div&gt;
 

@@ -4,7 +4,146 @@
  <link rel="self" href="https://racket-news.com/feeds/all.atom.xml" />
  <link href="https://racket-news.com/index.html" />
  <id>urn:https-racket-news-com:-index-html</id>
- <updated>2019-03-01T08:00:00Z</updated>
+ <updated>2019-03-15T08:00:00Z</updated>
+ <entry>
+  <title type="text">Racket News - Issue 4</title>
+  <link rel="alternate" href="https://racket-news.com/2019/03/racket-news-issue-4.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-racket-news-com:-2019-03-racket-news-issue-4-html</id>
+  <published>2019-03-15T08:00:00Z</published>
+  <updated>2019-03-15T08:00:00Z</updated>
+  <author>
+   <name>Paulo Matos</name></author>
+  <content type="html">
+&lt;p&gt;Welcome to the fourth issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News. If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jesse Alama has suggested I should try to add a table of contents to this week&amp;rsquo;s issue - thanks for the suggestion. Again, let me reinforce the idea that I would love to have more contributions. If you see something that would like featured (blog post, mailing list post, news item, video, project, library, etc) just &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit it&lt;/a&gt; and I will make sure it will be featured in the next issue. If there is a way I can facilitate contributions &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt;. I am worried that without contributions the newsletter becomes a biased source of what interests me most, instead of what might be actually relevant for the community. Is it easier to contribute if you just DM me on twitter? &lt;a href="https://twitter.com/messages/compose?recipient_id=pocmatos&amp;amp;text=RacketNews"&gt;Go for it&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h1 id="table-of-contents"&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;&lt;a href="#whatsnew"&gt;What&amp;rsquo;s New?&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#aroundtheweb"&gt;Racket Around the Web&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#newreleases"&gt;New Releases&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#spotlight"&gt;Project in the Spotlight&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#meetups"&gt;Upcoming Meetups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#helpneeded"&gt;Help Needed&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#stats"&gt;Racket Project Statistics&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#jobs"&gt;Racket Jobs&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;div id="whatsnew"&gt;&lt;/div&gt;
+
+&lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Stephen de Gabrielle is trying to organize a &lt;a href="https://groups.google.com/d/msg/racket-users/88RrCxns2J8/iBWCE_w6BwAJ"&gt;London Racket Meetup&lt;/a&gt;. If you are interest, get in contact with him.&lt;/li&gt;
+ &lt;li&gt;A question by Marc Kaufmann on how to &lt;a href="https://groups.google.com/d/msg/racket-users/J8ylMGGGr-8/lpscIJswAQAJ"&gt;fix typos in the documentation&lt;/a&gt; led to the a &lt;a href="https://github.com/racket/racket/pull/2523"&gt;PR by David Storrs to add a &lt;code&gt;CONTRIBUTING.md&lt;/code&gt;&lt;/a&gt; to Racket. If you have some ideas on how to improve this, feel free to add a comment to the PR.&lt;/li&gt;
+ &lt;li&gt;If you are interested in software licensing, Joel Dueck added a &lt;a href="https://groups.google.com/d/msg/racket-users/7tdOCIuV3q8/iJD63AJZCQAJ"&gt;very interesting message&lt;/a&gt; to an &lt;a href="https://groups.google.com/d/msg/racket-users/7tdOCIuV3q8/bsRucIUeFwAJ"&gt;old thread&lt;/a&gt; about a new &lt;a href="https://blueoakcouncil.org/license/1.0.0"&gt;BlueOakCouncil license&lt;/a&gt;.&lt;/li&gt;
+ &lt;li&gt;William Bowman recently defended his PhD successfully. Congrats Dr. Bowman. On a long train ride? His thesis is available online: &lt;a href="https://williamjbowman.com/resources/wjb-dissertation.pdf"&gt;Compiling with dependent types&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="aroundtheweb"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
+
+&lt;p&gt;Here is a couple of posts I found for this issue, as usual, enjoy!&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://alex-hhh.github.io/2019/03/password-generator.html"&gt;Writing a Simple Password Generator in Racket&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://dev.to/goober99/learn-racket-by-example-gui-programming-3epm"&gt;Learn Racket by Example: GUI Programming&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="newreleases"&gt;&lt;/div&gt;
+
+&lt;h1 id="new-releases"&gt;New Releases&lt;/h1&gt;
+
+&lt;p&gt;If you know of library releases or maybe your own libraries and you want them to be featured, please &lt;a href="mailto:pmatos@linki.tools"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://github.com/wilbowma/scribble-coq"&gt;Scribble Coq&lt;/a&gt; - William Bowman announced this new scribble library to typoset Coq going as far as running and auto-typesetting Coq examples as done by &lt;code&gt;scribble/example&lt;/code&gt;.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://github.com/wilbowma/scribble-minted"&gt;Scribble Minted&lt;/a&gt; - Also by William Bowman, I have missed this announcement on a previous issue, scribble minted supports code rendering using &lt;code&gt;pygmentize&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="spotlight"&gt;&lt;/div&gt;
+
+&lt;h1 id="project-in-the-spotlight"&gt;Project in the Spotlight&lt;/h1&gt;
+
+&lt;p&gt;The project for this issue is &lt;a href="https://github.com/soegaard/metapict/"&gt;Metapict&lt;/a&gt; by Jens Axel-Soegaard. I find this to be one of the most underrated Racket projects I know of. More people should know about it and use it!&lt;/p&gt;
+
+&lt;p&gt;From the docs: &amp;gt;The metapict library provides functions and data structures useful for generating picts. The library includes support for points, vectors, Bezier curves, and, general curves. &amp;gt; &amp;gt;The algorithm used to calculate a nice curve from points and tangents is the same as the one used in MetaPost. &amp;gt; &amp;gt;With this library I to hope narrow the gap between Scribble and LaTeX + MetaPost/Tikz. If you find any features in MetaPost or Tikz that you miss, don’t hesitate to mail me.&lt;/p&gt;
+
+&lt;div id="meetups"&gt;&lt;/div&gt;
+
+&lt;h1 id="upcoming-meetups"&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;p&gt;One more week until Bob and RacketFest!&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="http://bobkonf.de/2019/"&gt;Bob2019&lt;/a&gt; - Right before Racketfest, also in Berlin, Germany there will be a few Rackety related things going on like a talk by &lt;a href="https://bobkonf.de/2019/krishnamurthi.html"&gt;Shriram Krishnamurthi&lt;/a&gt; and a tutorial by &lt;a href="https://bobkonf.de/2019/alama.html"&gt;Jesse Alama&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://racketfest.com/"&gt;RacketFest&lt;/a&gt; - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out&amp;hellip; again!&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt; - taught by Racket heavyweights it&amp;rsquo;s your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 8&amp;ndash;12.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2019&lt;/a&gt; - taking place in Salt Lake City, US on July 13, 14, just after Racket School.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="helpneeded"&gt;&lt;/div&gt;
+
+&lt;h1 id="help-needed"&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors or help with a task? I would love to hear about it.&lt;/p&gt;
+
+&lt;div id="stats"&gt;&lt;/div&gt;
+
+&lt;h1 id="stats-of-mention"&gt;Stats of mention&lt;/h1&gt;
+
+&lt;p&gt;Some data about how Racket development did during the month of February, 2019.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of master Commits&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;56&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Bugs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;292&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;PRs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;90&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Contributions by (12):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alexander McLin&lt;/li&gt;
+ &lt;li&gt;Alexis King&lt;/li&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;John Clements&lt;/li&gt;
+ &lt;li&gt;Marc Kaufmann&lt;/li&gt;
+ &lt;li&gt;Matthew Flatt&lt;/li&gt;
+ &lt;li&gt;Matthias Felleisen&lt;/li&gt;
+ &lt;li&gt;Paulo Matos&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;Robby Findler&lt;/li&gt;
+ &lt;li&gt;Sam Tobin-Hochstadt&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;yjqww6&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Of which, making the list the first time this year (7):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alexander McLin&lt;/li&gt;
+ &lt;li&gt;Alexis King&lt;/li&gt;
+ &lt;li&gt;John Clements&lt;/li&gt;
+ &lt;li&gt;Marc Kaufmann&lt;/li&gt;
+ &lt;li&gt;Matthias Felleisen&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;yjqww6&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="jobs"&gt;&lt;/div&gt;
+
+&lt;h1 id="jobs"&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT Team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</content></entry>
  <entry>
   <title type="text">Racket News - Issue 3</title>
   <link rel="alternate" href="https://racket-news.com/2019/03/racket-news-issue-3.html?utm_source=all&amp;utm_medium=Atom" />

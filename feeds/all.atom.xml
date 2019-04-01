@@ -81,8 +81,7 @@
 &lt;ol&gt;
  &lt;li&gt;first class, lexically scoped, naturally ordered data constructors;  and&lt;/li&gt;&lt;/ol&gt;
 
-&lt;div class="brush: racket"&gt;
- &lt;pre&gt;&lt;code&gt;  &amp;gt; (data Maybe (Just Nothing))
+&lt;pre&gt;&lt;code&gt;  &amp;gt; (data Maybe (Just Nothing))
   &amp;gt; (define maybe
       (function*
         [(n _ Nothing) n]
@@ -90,13 +89,12 @@
   &amp;gt; (maybe #f values (Just 123))
   123
   &amp;gt; (maybe #f values Nothing)
-  #f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  #f&lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
  &lt;li&gt;a consistent destructuring syntax for functions and macros.&lt;/li&gt;&lt;/ol&gt;
 
-&lt;div class="brush: racket"&gt;
- &lt;pre&gt;&lt;code&gt;  &amp;gt; (define fib
+&lt;pre&gt;&lt;code&gt;  &amp;gt; (define fib
       (function
         [n #:if (&amp;lt; n 2) 1]
         [n (+ (fib (- n 1))
@@ -111,7 +109,7 @@
                   (m-fib #,(- (var n) 2)))]))
   &amp;gt; (list (m-fib 0) (m-fib 1) (m-fib 2)
           (m-fib 3) (m-fib 4) (m-fib 5) (m-fib 6))
-  '(1 1 2 3 5 8 13)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  '(1 1 2 3 5 8 13)&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The package is fully documented. The documentation includes the first of three tutorials in a series on building interpreters with Algebraic Racket.&lt;/p&gt;
 

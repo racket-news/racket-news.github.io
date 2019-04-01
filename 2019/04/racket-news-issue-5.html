@@ -166,8 +166,7 @@
 <ol>
  <li>first class, lexically scoped, naturally ordered data constructors;  and</li></ol>
 
-<div class="brush: racket">
- <pre><code>  &gt; (data Maybe (Just Nothing))
+<pre><code>  &gt; (data Maybe (Just Nothing))
   &gt; (define maybe
       (function*
         [(n _ Nothing) n]
@@ -175,13 +174,12 @@
   &gt; (maybe #f values (Just 123))
   123
   &gt; (maybe #f values Nothing)
-  #f</code></pre></div>
+  #f</code></pre>
 
 <ol>
  <li>a consistent destructuring syntax for functions and macros.</li></ol>
 
-<div class="brush: racket">
- <pre><code>  &gt; (define fib
+<pre><code>  &gt; (define fib
       (function
         [n #:if (&lt; n 2) 1]
         [n (+ (fib (- n 1))
@@ -196,7 +194,7 @@
                   (m-fib #,(- (var n) 2)))]))
   &gt; (list (m-fib 0) (m-fib 1) (m-fib 2)
           (m-fib 3) (m-fib 4) (m-fib 5) (m-fib 6))
-  '(1 1 2 3 5 8 13)</code></pre></div>
+  '(1 1 2 3 5 8 13)</code></pre>
 
 <p>The package is fully documented. The documentation includes the first of three tutorials in a series on building interpreters with Algebraic Racket.</p>
 

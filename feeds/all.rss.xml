@@ -46,12 +46,15 @@
 &lt;p&gt;These last couple weeks were full of Racket. Here are a few things happening in the Racket World.&lt;/p&gt;
 
 &lt;ul&gt;
- &lt;li&gt;Racket has made it into &lt;a href="https://www.codewars.com/"&gt;CodeWars&lt;/a&gt; so give this &lt;a href="https://www.codewars.com/kata/simple-macro-with-define-syntax-rule/train/racket"&gt;Kata&lt;/a&gt; a try and if you want to see more Racket on the site consider contributing some Katas; ** Available &lt;a href="https://www.codewars.com/kata/search/racket"&gt;Racket katas&lt;/a&gt; in CodeWars; ** There is also a Racket track in &lt;a href="https://exercism.io"&gt;Exercism.io&lt;/a&gt; - check it out and consider mentoring;&lt;/li&gt;
+ &lt;li&gt;Racket has made it into &lt;a href="https://www.codewars.com/"&gt;CodeWars&lt;/a&gt; so give this &lt;a href="https://www.codewars.com/kata/simple-macro-with-define-syntax-rule/train/racket"&gt;Kata&lt;/a&gt; a try and if you want to see more Racket on the site consider contributing some Katas;&lt;/li&gt;
+ &lt;li&gt;Available &lt;a href="https://www.codewars.com/kata/search/racket"&gt;Racket katas&lt;/a&gt; in CodeWars;&lt;/li&gt;
+ &lt;li&gt;There is also a Racket track in &lt;a href="https://exercism.io"&gt;Exercism.io&lt;/a&gt; - check it out and consider mentoring;&lt;/li&gt;
  &lt;li&gt;A more accurate &lt;code&gt;tanh&lt;/code&gt; function made it into the Racket repo through &lt;a href="https://github.com/racket/racket/pull/2565"&gt;PR 2565&lt;/a&gt; by &lt;code&gt;bdeket&lt;/code&gt;. If you are into numerical computing take a look, run some benchmarks and if something is off &lt;a href="https://github.com/racket/racket/issues/new"&gt;let us know&lt;/a&gt;;&lt;/li&gt;
  &lt;li&gt;Philip McGrath mentioned, &lt;a href="https://groups.google.com/d/msg/racket-users/M7wU5Ut4QBI/emt93xyFBQAJ"&gt;on the mailing list&lt;/a&gt;, the &lt;a href="https://realworld.io/"&gt;RealWorld&lt;/a&gt; project, which defines a &lt;em&gt;simple but realistic client-server web&lt;/em&gt; application. If you would like to contribute a Racket example app, join forces with Philip at &lt;a href="https://github.com/liberalartist/racket-realworld-example-app"&gt;Racket RealWorld App&lt;/a&gt;;&lt;/li&gt;
  &lt;li&gt;Alex Harsanyi has &lt;a href="https://github.com/alex-hhh/racket-mode/blob/master/scribble-mode.el"&gt;improved&lt;/a&gt; on Greg&amp;rsquo;s &lt;a href="https://github.com/greghendershott/racket-mode"&gt;racket mode&lt;/a&gt; by adding better scribble support;&lt;/li&gt;
  &lt;li&gt;There is an editor called &lt;a href="http://kakoune.org/"&gt;Kakoune&lt;/a&gt;, and it seems to also have Racket support. &lt;a href="https://bitbucket.org/KJ_Duncan/kakoune-racket.kak/src"&gt;Check it out!&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;There is also an editor called Vim&amp;hellip; :) ** recently I found there a &lt;a href="https://github.com/rachitnigam/drracket.vim"&gt;slightly dated DrRacket mode for Vim&lt;/a&gt;. Not sure it is usable but if you are a Vim user you might want to check it out and improve on it;&lt;/li&gt;&lt;/ul&gt;
+ &lt;li&gt;There is also an editor called Vim&amp;hellip; :)&lt;/li&gt;
+ &lt;li&gt;recently I found there a &lt;a href="https://github.com/rachitnigam/drracket.vim"&gt;slightly dated DrRacket mode for Vim&lt;/a&gt;. Not sure it is usable but if you are a Vim user you might want to check it out and improve on it;&lt;/li&gt;&lt;/ul&gt;
 
 &lt;div id="aroundtheweb"&gt;&lt;/div&gt;
 

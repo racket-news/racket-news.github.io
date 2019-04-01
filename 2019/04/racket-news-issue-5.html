@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport"    content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Welcome to the fifth issue of Racket News.  Last week was also Racketfest in Berlin, where I met some of you and had the opportunity to have some great Racket discussions. It was a great event - some to Jesse once more for having organised it. Can't wait ...">
+    <meta name="description" content="Welcome to the fifth issue of Racket News.  Last week Racketfest took place in Berlin, where I had the opportunity to meet some of you and have some great Racket time. It was an awesome event - thanks to Jesse once again for setting it up. Thank you for t...">
     <meta name="author"      content="Paulo Matos">
     <meta name="keywords"    content="">
 
@@ -101,11 +101,11 @@
 
 <p>Welcome to the fifth issue of <a href="https://www.racket-lang.org">Racket</a> News.</p>
 
-<p>Last week was also Racketfest in Berlin, where I met some of you and had the opportunity to have some great Racket discussions. It was a great event - some to Jesse once more for having organised it. Can&rsquo;t wait for 2020 (no pressure Jesse). Thank you for the support you showed for Racket News. A last comment to point out that we have now passed 100 subscribers to the Racket News newsletter - you may have that extra espresso today in celebration of this momentous achievement.</p>
+<p>Last week Racketfest took place in Berlin, where I had the opportunity to meet some of you and have some great Racket time. It was an awesome event - thanks to Jesse once again for setting it up. Thank you for the support you showed for Racket News during the event! A last comment to point out that we have now passed 100 subscribers to the Racket News newsletter - you may have that extra espresso today in celebration of this momentous achievement.</p>
 
-<p>In this issue, I have added a new section: Featured Racket Paper. We all know Racket is born and nurtured in a state of the art academic lab where researchers do not sleep in order to bring us this amazing Programming Language. In celebration of this academic effort, I will start choosing papers related to Racket to feature in this newsletter. If you have paper suggestion, you would like to see featured (maybe your first or last paper?) <a href="https://github.com/racket-news/racket-news.github.io-src/issues">let me know</a>.</p>
+<p>In this issue, I have added a new section: <a href="#featuredpaper">Featured Racket Paper</a>. We all know Racket is born and nurtured in a state of the art academic lab where researchers do not sleep in order to bring us this amazing Programming Language. In celebration of this academic effort, I will start choosing papers related to Racket to feature in this newsletter. If you have a suggestion for a paper you would like to see featured here <a href="https://github.com/racket-news/racket-news.github.io-src/issues">let me know</a>.</p>
 
-<p>Due to some travelling arrangements in the middle of the month, which would coincide with Issue 6 publishing date, I will either publish it a few days earlier or if there is not enough content, delay it until May 1st.</p>
+<p>Due to some travelling arrangements in the middle of this month, which will coincide with Issue 6 publishing date, I will either publish it a few days earlier or if there is not enough content, delay it until May 1st.</p>
 
 <p>If there&rsquo;s something you really dislike, or something you want to see added to the newsletter please <a href="mailto:pmatos@linki.tools">send me an email</a> or <a href="https://github.com/racket-news/racket-news.github.io-src/issues">submit an issue</a>.</p>
 
@@ -131,15 +131,12 @@
 <p>These last couple weeks were full of Racket. Here are a few things happening in the Racket World.</p>
 
 <ul>
- <li>Racket has made it into <a href="https://www.codewars.com/">CodeWars</a> so give this <a href="https://www.codewars.com/kata/simple-macro-with-define-syntax-rule/train/racket">Kata</a> a try and if you want to see more Racket on the site consider contributing some Katas;</li>
- <li>Available <a href="https://www.codewars.com/kata/search/racket">Racket katas</a> in CodeWars;</li>
- <li>There is also a Racket track in <a href="https://exercism.io">Exercism.io</a> - check it out and consider mentoring;</li>
+ <li>Racket has made it into <a href="https://www.codewars.com/">CodeWars</a> so give this <a href="https://www.codewars.com/kata/simple-macro-with-define-syntax-rule/train/racket">Kata</a> a try and if you want to see more Racket on the site consider contributing some Katas; ** Available <a href="https://www.codewars.com/kata/search/racket">Racket katas</a> in CodeWars; ** There is also a Racket track in <a href="https://exercism.io">Exercism.io</a> - check it out and consider mentoring;</li>
  <li>A more accurate <code>tanh</code> function made it into the Racket repo through <a href="https://github.com/racket/racket/pull/2565">PR 2565</a> by <code>bdeket</code>. If you are into numerical computing take a look, run some benchmarks and if something is off <a href="https://github.com/racket/racket/issues/new">let us know</a>;</li>
- <li>Philip McGrath mentioned, <a href="https://groups.google.com/d/msg/racket-users/M7wU5Ut4QBI/emt93xyFBQAJ">on the mailing list</a>, the <a href="https://realworld.io/">RealWorld</a> project, which defines a <em>simple but realistic client-server web</em> application. If you would like to contribute a with a Racket example, join forces with Philip at <a href="https://github.com/liberalartist/racket-realworld-example-app">Racket RealWorld App</a>;</li>
+ <li>Philip McGrath mentioned, <a href="https://groups.google.com/d/msg/racket-users/M7wU5Ut4QBI/emt93xyFBQAJ">on the mailing list</a>, the <a href="https://realworld.io/">RealWorld</a> project, which defines a <em>simple but realistic client-server web</em> application. If you would like to contribute a Racket example app, join forces with Philip at <a href="https://github.com/liberalartist/racket-realworld-example-app">Racket RealWorld App</a>;</li>
  <li>Alex Harsanyi has <a href="https://github.com/alex-hhh/racket-mode/blob/master/scribble-mode.el">improved</a> on Greg&rsquo;s <a href="https://github.com/greghendershott/racket-mode">racket mode</a> by adding better scribble support;</li>
  <li>There is an editor called <a href="http://kakoune.org/">Kakoune</a>, and it seems to also have Racket support. <a href="https://bitbucket.org/KJ_Duncan/kakoune-racket.kak/src">Check it out!</a></li>
- <li>There is also an editor called Vim&hellip; :)</li>
- <li>recently I found there a <a href="https://github.com/rachitnigam/drracket.vim">slightly dated DrRacket mode for Vim</a>. Not sure it is usable but if you are a Vim user you might want to check it out and improve on it;</li></ul>
+ <li>There is also an editor called Vim&hellip; :) ** recently I found there a <a href="https://github.com/rachitnigam/drracket.vim">slightly dated DrRacket mode for Vim</a>. Not sure it is usable but if you are a Vim user you might want to check it out and improve on it;</li></ul>
 
 <div id="aroundtheweb"></div>
 
@@ -166,7 +163,8 @@
 <ol>
  <li>first class, lexically scoped, naturally ordered data constructors;  and</li></ol>
 
-<pre><code>  &gt; (data Maybe (Just Nothing))
+<div class="brush: racket">
+ <pre><code>  &gt; (data Maybe (Just Nothing))
   &gt; (define maybe
       (function*
         [(n _ Nothing) n]
@@ -174,12 +172,13 @@
   &gt; (maybe #f values (Just 123))
   123
   &gt; (maybe #f values Nothing)
-  #f</code></pre>
+  #f</code></pre></div>
 
 <ol>
  <li>a consistent destructuring syntax for functions and macros.</li></ol>
 
-<pre><code>  &gt; (define fib
+<div class="brush: racket">
+ <pre><code>  &gt; (define fib
       (function
         [n #:if (&lt; n 2) 1]
         [n (+ (fib (- n 1))
@@ -194,7 +193,7 @@
                   (m-fib #,(- (var n) 2)))]))
   &gt; (list (m-fib 0) (m-fib 1) (m-fib 2)
           (m-fib 3) (m-fib 4) (m-fib 5) (m-fib 6))
-  '(1 1 2 3 5 8 13)</code></pre>
+  '(1 1 2 3 5 8 13)</code></pre></div>
 
 <p>The package is fully documented. The documentation includes the first of three tutorials in a series on building interpreters with Algebraic Racket.</p>
 
@@ -208,13 +207,13 @@
  <li>
   <p>Support the development of modular type systems and other  language-facing components as libraries.</p></li></ol>
 
-<p>Pull requests of any size are welcome. For major changes, please start a conversation on racket-users or open an issue to discuss what you would like to change.</p>
+<p>Pull requests of any size are welcome. For major changes, please start a conversation on <a href="https://groups.google.com/forum/#!forum/racket-users">racket-users</a> or <a href="https://github.com/dedbox/racket-algebraic/issues/new">open an issue</a> to discuss what you would like to change.</p>
 
 <div id="spotlight"></div>
 
 <h1 id="project-in-the-spotlight">Project in the Spotlight</h1>
 
-<p>Thanks for all the suggestions for projects in the spotlight I got recently. I have queued them all for future issues.</p>
+<p>I got several the suggestions for projects to highlight - thanks for that. I have queued them all for future issues.</p>
 
 <p>In celebration of the start of the triathlon season in Europe, I would like to feature one of the most polished Racket GUI applications I have seen implemented in Racket.</p>
 
@@ -244,7 +243,7 @@
 
 <h1 id="featured-racket-paper">Featured Racket Paper</h1>
 
-<p>We kick off this new section with the one everyone should read: <a href="https://cs.brown.edu/~sk/Publications/Papers/Published/fffkbmt-racket-manifesto/paper.pdf">The Racket Manifesto</a>.</p>
+<p>We kick off this new section with the One Paper everyone should read: <a href="https://cs.brown.edu/~sk/Publications/Papers/Published/fffkbmt-racket-manifesto/paper.pdf">The Racket Manifesto</a>.</p>
 
 <p>By <em>Matthias Felleisen</em>, <em>Robert Bruce Findler</em>, <em>Matthew Flatt</em>, <em>Shriram Krishnamurthi</em>, <em>Eli Barzilay</em>, <em>Jay McCarthy</em>, <em>Sam Tobin-Hochstadt</em>.</p>
 
@@ -320,7 +319,7 @@
 <ul>
  <li>Alexander McLin</li>
  <li>Alexis King</li>
- <li>AlexKnauth</li>
+ <li>Alex Knauth</li>
  <li><code>bdeket</code></li>
  <li>Ben Greenman</li>
  <li>Georges Dupéron</li>

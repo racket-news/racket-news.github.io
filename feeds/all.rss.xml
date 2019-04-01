@@ -4,9 +4,286 @@
   <title>Racket News: Racket News</title>
   <description>Racket News: Racket News</description>
   <link>https://racket-news.com/index.html</link>
-  <lastBuildDate>Fri, 15 Mar 2019 08:00:00 UT</lastBuildDate>
-  <pubDate>Fri, 15 Mar 2019 08:00:00 UT</pubDate>
+  <lastBuildDate>Mon, 01 Apr 2019 08:00:00 UT</lastBuildDate>
+  <pubDate>Mon, 01 Apr 2019 08:00:00 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Racket News - Issue 5</title>
+   <link>https://racket-news.com/2019/04/racket-news-issue-5.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-racket-news-com:-2019-04-racket-news-issue-5-html</guid>
+   <pubDate>Mon, 01 Apr 2019 08:00:00 UT</pubDate>
+   <author>Paulo Matos</author>
+   <description>
+&lt;p&gt;Welcome to the fifth issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News.&lt;/p&gt;
+
+&lt;p&gt;Last week was also Racketfest in Berlin, where I met some of you and had the opportunity to have some great Racket discussions. It was a great event - some to Jesse once more for having organised it. Can&amp;rsquo;t wait for 2020 (no pressure Jesse). Thank you for the support you showed for Racket News. A last comment to point out that we have now passed 100 subscribers to the Racket News newsletter - you may have that extra espresso today in celebration of this momentous achievement.&lt;/p&gt;
+
+&lt;p&gt;In this issue, I have added a new section: Featured Racket Paper. We all know Racket is born and nurtured in a state of the art academic lab where researchers do not sleep in order to bring us this amazing Programming Language. In celebration of this academic effort, I will start choosing papers related to Racket to feature in this newsletter. If you have paper suggestion, you would like to see featured (maybe your first or last paper?) &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Due to some travelling arrangements in the middle of the month, which would coincide with Issue 6 publishing date, I will either publish it a few days earlier or if there is not enough content, delay it until May 1st.&lt;/p&gt;
+
+&lt;p&gt;If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, grab that cup of coffee and enjoy!&lt;/p&gt;
+
+&lt;h1 id="table-of-contents"&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;&lt;a href="#whatsnew"&gt;What&amp;rsquo;s New?&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#aroundtheweb"&gt;Racket Around the Web&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#newreleases"&gt;New Releases&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#spotlight"&gt;Project in the Spotlight&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#featuredpaper"&gt;Featured Racket Paper&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#meetups"&gt;Upcoming Meetups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#helpneeded"&gt;Help Needed&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#stats"&gt;Racket Project Statistics&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#jobs"&gt;Racket Jobs&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;div id="whatsnew"&gt;&lt;/div&gt;
+
+&lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;p&gt;These last couple weeks were full of Racket. Here are a few things happening in the Racket World.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Racket has made it into &lt;a href="https://www.codewars.com/"&gt;CodeWars&lt;/a&gt; so give this &lt;a href="https://www.codewars.com/kata/simple-macro-with-define-syntax-rule/train/racket"&gt;Kata&lt;/a&gt; a try and if you want to see more Racket on the site consider contributing some Katas;&lt;/li&gt;
+ &lt;li&gt;Available &lt;a href="https://www.codewars.com/kata/search/racket"&gt;Racket katas&lt;/a&gt; in CodeWars;&lt;/li&gt;
+ &lt;li&gt;There is also a Racket track in &lt;a href="https://exercism.io"&gt;Exercism.io&lt;/a&gt; - check it out and consider mentoring;&lt;/li&gt;
+ &lt;li&gt;A more accurate &lt;code&gt;tanh&lt;/code&gt; function made it into the Racket repo through &lt;a href="https://github.com/racket/racket/pull/2565"&gt;PR 2565&lt;/a&gt; by &lt;code&gt;bdeket&lt;/code&gt;. If you are into numerical computing take a look, run some benchmarks and if something is off &lt;a href="https://github.com/racket/racket/issues/new"&gt;let us know&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;Philip McGrath mentioned, &lt;a href="https://groups.google.com/d/msg/racket-users/M7wU5Ut4QBI/emt93xyFBQAJ"&gt;on the mailing list&lt;/a&gt;, the &lt;a href="https://realworld.io/"&gt;RealWorld&lt;/a&gt; project, which defines a &lt;em&gt;simple but realistic client-server web&lt;/em&gt; application. If you would like to contribute a with a Racket example, join forces with Philip at &lt;a href="https://github.com/liberalartist/racket-realworld-example-app"&gt;Racket RealWorld App&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;Alex Harsanyi has &lt;a href="https://github.com/alex-hhh/racket-mode/blob/master/scribble-mode.el"&gt;improved&lt;/a&gt; on Greg&amp;rsquo;s &lt;a href="https://github.com/greghendershott/racket-mode"&gt;racket mode&lt;/a&gt; by adding better scribble support;&lt;/li&gt;
+ &lt;li&gt;There is an editor called &lt;a href="http://kakoune.org/"&gt;Kakoune&lt;/a&gt;, and it seems to also have Racket support. &lt;a href="https://bitbucket.org/KJ_Duncan/kakoune-racket.kak/src"&gt;Check it out!&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;There is also an editor called Vim&amp;hellip; :)&lt;/li&gt;
+ &lt;li&gt;recently I found there a &lt;a href="https://github.com/rachitnigam/drracket.vim"&gt;slightly dated DrRacket mode for Vim&lt;/a&gt;. Not sure it is usable but if you are a Vim user you might want to check it out and improve on it;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="aroundtheweb"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
+
+&lt;p&gt;Do you blog about Racket? &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://alex-hhh.github.io/2019/03/password-generator-gui.html"&gt;Building a GUI Application for the Password Generator&lt;/a&gt; by Alex Harsanyi&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="newreleases"&gt;&lt;/div&gt;
+
+&lt;h1 id="new-releases"&gt;New Releases&lt;/h1&gt;
+
+&lt;p&gt;If you know of library releases or maybe your own libraries and you want them to be featured, please &lt;a href="mailto:pmatos@linki.tools"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://github.com/dedbox/racket-algebraic"&gt;Algebraic Racket&lt;/a&gt; by Eric Griffis - an extension for algebraic structures in untyped Racket&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Algebraic structures provide the operational under-pinnings for algebraic data types. What&amp;rsquo;s missing is the static typing constraints.&lt;/p&gt;
+
+&lt;p&gt;The initial release provides a &lt;code&gt;#lang algebraic/racket/base&lt;/code&gt; that extends &lt;code&gt;#lang racket/base&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;first class, lexically scoped, naturally ordered data constructors;  and&lt;/li&gt;&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;gt; (data Maybe (Just Nothing))
+  &amp;gt; (define maybe
+      (function*
+        [(n _ Nothing) n]
+        [(_ f (Just x)) (f x)]))
+  &amp;gt; (maybe #f values (Just 123))
+  123
+  &amp;gt; (maybe #f values Nothing)
+  #f&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;a consistent destructuring syntax for functions and macros.&lt;/li&gt;&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;gt; (define fib
+      (function
+        [n #:if (&amp;lt; n 2) 1]
+        [n (+ (fib (- n 1))
+              (fib (- n 2)))]))
+  &amp;gt; (map fib (build-list 7 values))
+  '(1 1 2 3 5 8 13)
+
+  &amp;gt; (define-syntax m-fib
+      (macro
+        [n:nat #:if (&amp;lt; (var n) 2) 1]
+        [n:nat (+ (m-fib #,(- (var n) 1))
+                  (m-fib #,(- (var n) 2)))]))
+  &amp;gt; (list (m-fib 0) (m-fib 1) (m-fib 2)
+          (m-fib 3) (m-fib 4) (m-fib 5) (m-fib 6))
+  '(1 1 2 3 5 8 13)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The package is fully documented. The documentation includes the first of three tutorials in a series on building interpreters with Algebraic Racket.&lt;/p&gt;
+
+&lt;p&gt;Algebraic Racket is the first major milestone in a larger effort to produce a complete language-oriented toolkit for integrating algebraic structure into more sophisticated designs.&lt;/p&gt;
+
+&lt;p&gt;The project aims to:&lt;/p&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;
+  &lt;p&gt;Implement and document the forms, functions, and syntax classes  comprising Algebraic Racket for maximum potential reuse.&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;Support the development of modular type systems and other  language-facing components as libraries.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Pull requests of any size are welcome. For major changes, please start a conversation on racket-users or open an issue to discuss what you would like to change.&lt;/p&gt;
+
+&lt;div id="spotlight"&gt;&lt;/div&gt;
+
+&lt;h1 id="project-in-the-spotlight"&gt;Project in the Spotlight&lt;/h1&gt;
+
+&lt;p&gt;Thanks for all the suggestions for projects in the spotlight I got recently. I have queued them all for future issues.&lt;/p&gt;
+
+&lt;p&gt;In celebration of the start of the triathlon season in Europe, I would like to feature one of the most polished Racket GUI applications I have seen implemented in Racket.&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href="https://alex-hhh.github.io/"&gt;Alex Harsanyi&lt;/a&gt; the project in the spotlight is &lt;a href="https://github.com/alex-hhh/ActivityLog2"&gt;ActivityLog2&lt;/a&gt;. From its webpage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;Import swim, bike and run and other activities from .FIT files. Display plots, scatter plots, histograms, maps and other views for activities. Show reports and trends from activity data and track equipment usage.&lt;/p&gt;
+ &lt;p&gt;Features&lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;Import Run, Bike and Swim activities from FIT files (as generated by Garmin devices, and others)&lt;/li&gt;
+  &lt;li&gt;Show data charts, histograms, scatter plots, best-average plots&lt;/li&gt;
+  &lt;li&gt;Show GPS track on a map, with several map tile styles&lt;/li&gt;
+  &lt;li&gt;Show hill climbs and best sections (e.g. best 5k, best 20 min power)&lt;/li&gt;
+  &lt;li&gt;Elevation correction (see Notes)&lt;/li&gt;
+  &lt;li&gt;Show weather information for sessions with GPS data&lt;/li&gt;
+  &lt;li&gt;Fix recording errors in swim activities (merge or split lengths, fix stroke type)&lt;/li&gt;
+  &lt;li&gt;Export data as CSV for analyzing it with other tools&lt;/li&gt;
+  &lt;li&gt;Export settings sport zones to the device&lt;/li&gt;
+  &lt;li&gt;Show trend plots and reports&lt;/li&gt;
+  &lt;li&gt;Track equipment usage and service reminders (e.g. replace running shoes or service the bike).&lt;/li&gt;
+  &lt;li&gt;Shows firmware version and battery voltage for all sensors (e.g HRM or Bike Cadence sensor), displays a warning on low battery.&lt;/li&gt;
+  &lt;li&gt;Track body weight, and other metrics&lt;/li&gt;
+  &lt;li&gt;Estimate Critical Power&lt;/li&gt;
+  &lt;li&gt;Generate workout files for downloading to the Garmin device.&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;
+
+&lt;div id="featuredpaper"&gt;&lt;/div&gt;
+
+&lt;h1 id="featured-racket-paper"&gt;Featured Racket Paper&lt;/h1&gt;
+
+&lt;p&gt;We kick off this new section with the one everyone should read: &lt;a href="https://cs.brown.edu/~sk/Publications/Papers/Published/fffkbmt-racket-manifesto/paper.pdf"&gt;The Racket Manifesto&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By &lt;em&gt;Matthias Felleisen&lt;/em&gt;, &lt;em&gt;Robert Bruce Findler&lt;/em&gt;, &lt;em&gt;Matthew Flatt&lt;/em&gt;, &lt;em&gt;Shriram Krishnamurthi&lt;/em&gt;, &lt;em&gt;Eli Barzilay&lt;/em&gt;, &lt;em&gt;Jay McCarthy&lt;/em&gt;, &lt;em&gt;Sam Tobin-Hochstadt&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Abstract:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;The creation of a programming language calls for guiding principles that point the developers to goals. This article spells out the three basic principles behind the 20-year development of Racket. First, programming is about stating and solving problems, and this activity normally takes place in a context with its own language of discourse; good programmers ought to formulate this language as a programming language. Hence, Racket is a programming language for creating new programming languages. Second, by following this language-oriented approach to programming, systems become multi-lingual collections of interconnected components. Each language and component must be able to protect its specific invariants. In support, Racket offers protection mechanisms to implement a full language spectrum, from C-level bit manipulation to soundly typed extensions. Third, because Racket considers programming as problem solving in the correct language, Racket also turns extra-linguistic mechanisms into linguistic constructs, especially mechanisms for managing resources and projects. The paper explains these principles and how Racket lives up to them, presents the evaluation framework behind the design process, and concludes with a sketch of Racket’s imperfections and opportunities for future improvements.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;In addition to the paper there are a few resources related to the paper:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;An update &lt;a href="https://cs.brown.edu/~sk/Publications/Papers/Published/fffkbmt-programmable-prog-lang/paper.pdf"&gt;journal version&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;A &lt;a href="https://www.youtube.com/watch?v=-cLI3GHvLOM"&gt;video at CurryOn 2016&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;A &lt;a href="https://www.youtube.com/watch?v=91hynuuM_As"&gt;video by ACM from 2018&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;Some &lt;a href="https://con.racket-lang.org/2015/felleisen.pdf"&gt;slides by Matthias Felleisen&lt;/a&gt; from RacketCon 2015;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Please note I am not hosting any of these files, but instead I am linking to the PDFs hosted by the researchers themselves. If you think there is a better way to do this or if I should host the files myself, &lt;a href="mailto:pmatos@linki.tools"&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id="meetups"&gt;&lt;/div&gt;
+
+&lt;h1 id="upcoming-meetups"&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;p&gt;Racket School and RacketCon tickets are now for sale in a website near you. Click on the links below!&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt; - taught by Racket heavyweights it&amp;rsquo;s your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 8&amp;ndash;12.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2019&lt;/a&gt; - taking place in Salt Lake City, US on July 13, 14, just after Racket School.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="helpneeded"&gt;&lt;/div&gt;
+
+&lt;h1 id="help-needed"&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors or help with a task? I would love to hear about it.&lt;/p&gt;
+
+&lt;div id="stats"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-project-statistics"&gt;Racket Project Statistics&lt;/h1&gt;
+
+&lt;p&gt;Some data about the activity in the &lt;a href="https://github.com/racket/racket"&gt;Racket repository&lt;/a&gt; for the month of March.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of master Commits&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;109&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;9&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Merged PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;19&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Closed Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Bugs open - currently&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;302&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;PRs open - currently&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;92&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Contributions by (20):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alexander McLin&lt;/li&gt;
+ &lt;li&gt;Alexis King&lt;/li&gt;
+ &lt;li&gt;AlexKnauth&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;bdeket&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Ben Greenman&lt;/li&gt;
+ &lt;li&gt;Georges Dupéron&lt;/li&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;John Clements&lt;/li&gt;
+ &lt;li&gt;Lassi Kortela&lt;/li&gt;
+ &lt;li&gt;Marc Kaufmann&lt;/li&gt;
+ &lt;li&gt;Matthew Butterick&lt;/li&gt;
+ &lt;li&gt;Matthew Flatt&lt;/li&gt;
+ &lt;li&gt;Matthias Felleisen&lt;/li&gt;
+ &lt;li&gt;Michael MacLeod&lt;/li&gt;
+ &lt;li&gt;Paulo Matos&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;Robby Findler&lt;/li&gt;
+ &lt;li&gt;Ryan Culpepper&lt;/li&gt;
+ &lt;li&gt;Sam Tobin-Hochstadt&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;yjqww6&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Of which, making the list the first time this year (6):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alex Knauth&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;bdeket&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Georges Dupéron&lt;/li&gt;
+ &lt;li&gt;Lassi Kortela&lt;/li&gt;
+ &lt;li&gt;Matthew Butterick&lt;/li&gt;
+ &lt;li&gt;Michael MacLeod&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="jobs"&gt;&lt;/div&gt;
+
+&lt;h1 id="jobs"&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="contributors"&gt;Contributors&lt;/h1&gt;
+
+&lt;p&gt;Thanks to&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Jay McCarthy&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;for his contributions to this issue.&lt;/p&gt;
+
+&lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT Team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</description></item>
   <item>
    <title>Racket News - Issue 4</title>
    <link>https://racket-news.com/2019/03/racket-news-issue-4.html?utm_source=all&amp;utm_medium=RSS</link>
@@ -94,9 +371,9 @@
 
 &lt;div id="stats"&gt;&lt;/div&gt;
 
-&lt;h1 id="stats-of-mention"&gt;Stats of mention&lt;/h1&gt;
+&lt;h1 id="racket-project-statistics"&gt;Racket Project Statistics&lt;/h1&gt;
 
-&lt;p&gt;Some data about how Racket development did during the month of February, 2019.&lt;/p&gt;
+&lt;p&gt;Some data about the activity in the &lt;a href="https://github.com/racket/racket"&gt;Racket repository&lt;/a&gt; since the last issue.&lt;/p&gt;
 
 &lt;table&gt;
  &lt;tr&gt;

@@ -41,6 +41,7 @@
  &lt;li&gt;&lt;a href="#featuredpaper"&gt;Featured Racket Paper&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#meetups"&gt;Upcoming Meetups&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#helpneeded"&gt;Help Needed&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#stats"&gt;Racket Project Statistics&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#jobs"&gt;Racket Jobs&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
 
 &lt;div id="whatsnew"&gt;&lt;/div&gt;
@@ -136,6 +137,43 @@
  &lt;li&gt;Travis Hinkelman&lt;/li&gt;&lt;/ul&gt;
 
 &lt;p&gt;for their contributions to this issue.&lt;/p&gt;
+
+&lt;div id="stats"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-project-statistics"&gt;Racket Project Statistics&lt;/h1&gt;
+
+&lt;p&gt;Some data about the activity in the &lt;a href="https://github.com/racket/racket"&gt;Racket repository&lt;/a&gt; since the last issue.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of master Commits&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;34&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Bugs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;309&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;PRs open&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;96&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Contributions by (8):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alexis King&lt;/li&gt;
+ &lt;li&gt;Alex Knauth&lt;/li&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;John Clements&lt;/li&gt;
+ &lt;li&gt;Matthew Flatt&lt;/li&gt;
+ &lt;li&gt;Matthias Felleisen&lt;/li&gt;
+ &lt;li&gt;Paulo Matos&lt;/li&gt;
+ &lt;li&gt;Vladilen Kozin&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Of which, making the list the first time this year (1):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Vladilen Kozin&lt;/li&gt;&lt;/ul&gt;
 
 &lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
 

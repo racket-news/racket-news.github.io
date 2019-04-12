@@ -287,6 +287,135 @@
 
 &lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</description></item>
   <item>
+   <title>Racket News - Issue 6</title>
+   <link>https://racket-news.com/2019/04/racket-news-issue-6.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-racket-news-com:-2019-04-racket-news-issue-6-html</guid>
+   <pubDate>Mon, 01 Apr 2019 08:00:00 UT</pubDate>
+   <author>Paulo Matos</author>
+   <description>
+&lt;p&gt;Welcome to the sixth issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News.&lt;/p&gt;
+
+&lt;p&gt;Surprise! I mentioned last issue that I might not be able to put out this issue mid-month due to travel arrangements but it turns out that the available content more than warrants an issue, even if it is coming a few days earlier. Hey, the Racket world doesn&amp;rsquo;t stop spinning!&lt;/p&gt;
+
+&lt;p&gt;I will however, stop spinning for a bit so it&amp;rsquo;s likely I won&amp;rsquo;t be replying to any emails for the next week or so.&lt;/p&gt;
+
+&lt;p&gt;Before we get going there&amp;rsquo;s an important issue I would like to raise. I was pointed out to the fact that I, unfairly, only name contributors to the main racket repository. And yet racket is made of several repositories so many contributors are left out. I am more than happy to add more repositories to the statistics I track but would like some suggestions.  * Which repositories to track? At the moment there are 111 repositories listed in &lt;a href="https://github.com/racket"&gt;https://github.com/racket&lt;/a&gt; - which repositories should we select and which should we ignore. An important point here is that I don&amp;rsquo;t want to make half the newsletter simply about repo statistics, which brings us to the second point; * Shall I name contributors to other repos and present repo statistics like open issues, merged PRs, etc for the main racket repo only? Or would you like to see repo statistics for other repositories as well? * For this issue, I only mention the main racket repo but with some feedback on the above questions I will able to better organize the section for next issue, coming to you on the 1st of May.&lt;/p&gt;
+
+&lt;p&gt;If there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Grab yourself a cappuccino and lets get started!&lt;/p&gt;
+
+&lt;h1 id="table-of-contents"&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;&lt;a href="#whatsnew"&gt;What&amp;rsquo;s New?&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#aroundtheweb"&gt;Racket Around the Web&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#newreleases"&gt;New Releases&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#spotlight"&gt;Project in the Spotlight&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#featuredpaper"&gt;Featured Racket Paper&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#meetups"&gt;Upcoming Meetups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#helpneeded"&gt;Help Needed&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#jobs"&gt;Racket Jobs&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;div id="whatsnew"&gt;&lt;/div&gt;
+
+&lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Jay McCarthy has &lt;a href="https://groups.google.com/d/msg/racket-dev/HuX_KUY2vbY/uj0TryysBgAJ"&gt;posted on the mailing list&lt;/a&gt; a little guide on how to contribute to improve support of Racket on Chez. If you have some time in your hands and would like to learn some more about the innards of Racket, take a look!&lt;/li&gt;
+ &lt;li&gt;I have &lt;a href="https://groups.google.com/d/msg/racket-dev/9aXta95PxlM/EPtEe28uCAAJ"&gt;posted on the mailing list&lt;/a&gt; about the work I have done in Racket CI on Gitlab. If you are interested in CI, take a look and &lt;a href="mailto:pmatos@linki.tools"&gt;get in touch&lt;/a&gt; if you want to help.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="aroundtheweb"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
+
+&lt;p&gt;Do you blog about Racket? &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;, our beloved static site generated is not going anywhere but Greg is experimenting with a different type of system - which you can read about in his more recent post: &lt;a href="https://www.greghendershott.com/2019/04/exploding-frog.html"&gt;Exploding frog&lt;/a&gt;!&lt;/li&gt;
+ &lt;li&gt;Travis Hinkelman has been publishing a few Racket posts which I have missed in the past - the latest one being &lt;a href="https://www.travishinkelman.com/post/generating-random-numbers-r-racket/"&gt;Generating random numbers in R and Racket&lt;/a&gt;. If you have time, take a look at his &lt;a href="https://www.travishinkelman.com/post/"&gt;blog&lt;/a&gt;, he has more Racket goodies in there.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="newreleases"&gt;&lt;/div&gt;
+
+&lt;h1 id="new-releases"&gt;New Releases&lt;/h1&gt;
+
+&lt;p&gt;If you know of library releases or maybe your own libraries and you want them to be featured, please &lt;a href="mailto:pmatos@linki.tools"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id="spotlight"&gt;&lt;/div&gt;
+
+&lt;h1 id="project-in-the-spotlight"&gt;Project in the Spotlight&lt;/h1&gt;
+
+&lt;p&gt;This week&amp;rsquo;s project in the spotlight is &lt;a href="https://github.com/mbutterick/brag"&gt;brag: a better Racket AST generator&lt;/a&gt; by Danny Yoo and Matthew Butterick.&lt;/p&gt;
+
+&lt;p&gt;From the documentation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;brag is a parser generator designed to be easy to use:&lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;It provides a &lt;code&gt;#lang&lt;/code&gt; for writing BNF grammars. A module written in &lt;code&gt;#lang brag&lt;/code&gt; automatically generates a parser. The grammar controls the structure of the syntax objects it generates.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;The language uses a few conventions to simplify the expression of grammars. The first rule in the grammar is assumed to be the starting production. Identifiers in &lt;code&gt;UPPERCASE&lt;/code&gt; are treated as terminal tokens. All other identifiers are treated as nonterminals.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Tokenizers can be developed independently of parsers. brag takes a liberal view on tokens: they can be strings, symbols, or instances constructed with token. Tokens can optionally provide source location, in which case a syntax object generated by the parser will too.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;The parser can usually handle ambiguous grammars.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;It integrates with the rest of the Racket language toolchain.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;
+
+&lt;div id="featuredpaper"&gt;&lt;/div&gt;
+
+&lt;h1 id="featured-racket-paper"&gt;Featured Racket Paper&lt;/h1&gt;
+
+&lt;p&gt;The paper for this week &lt;a href="http://jeapostrophe.github.io/home/static/icfp065-mccarthy.pdf"&gt;Automatically RESTful Web Applications: Marking Modular Serializable Continuations&lt;/a&gt; by &lt;em&gt;Jay McCarthy&lt;/em&gt; from ICFP&amp;rsquo;09.&lt;/p&gt;
+
+&lt;p&gt;Abstract:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;Continuation-based Web servers provide distinct advantages over traditional Web application development: expressive power and modularity. This power leads to fewer errors and more interesting applications. Furthermore, these Web servers are more than prototypes; they are used in some real commercial applications. Unfortunately, they pay a heavy price for the additional power in the form of lack of scalability.  We fix this key problem with a modular program transformation that produces scalable, continuation-based Web programs based on the REST architecture. Our programs use the same features as non-scalable, continuation-based Web programs, so we do not sacrifice expressive power for performance. In particular, we allow continuation marks in Web programs. Our system uses 10 percent (or less) of the memory required by previous approaches.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Please note I am not hosting any of these files, but instead I am linking to the PDFs hosted by the researchers themselves. If you think there is a better way to do this or if I should host the files myself, &lt;a href="mailto:pmatos@linki.tools"&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id="meetups"&gt;&lt;/div&gt;
+
+&lt;h1 id="upcoming-meetups"&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;p&gt;Racket School and RacketCon tickets are now for sale in a website near you. Click on the links below!&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt; - taught by Racket heavyweights it&amp;rsquo;s your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 8&amp;ndash;12.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2019&lt;/a&gt; - taking place in Salt Lake City, US on July 13, 14, just after Racket School.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="helpneeded"&gt;&lt;/div&gt;
+
+&lt;h1 id="help-needed"&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors or help with a task? I would love to hear about it.&lt;/p&gt;
+
+&lt;div id="jobs"&gt;&lt;/div&gt;
+
+&lt;h1 id="jobs"&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="contributors"&gt;Contributors&lt;/h1&gt;
+
+&lt;p&gt;Thanks to&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;Jérôme Martin&lt;/li&gt;
+ &lt;li&gt;Jesse Alama&lt;/li&gt;
+ &lt;li&gt;Travis Hinkelman&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;for their contributions to this issue.&lt;/p&gt;
+
+&lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT Team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</description></item>
+  <item>
    <title>Racket News - Issue 4</title>
    <link>https://racket-news.com/2019/03/racket-news-issue-4.html?utm_source=all&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:https-racket-news-com:-2019-03-racket-news-issue-4-html</guid>

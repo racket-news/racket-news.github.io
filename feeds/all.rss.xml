@@ -4,9 +4,185 @@
   <title>Racket News: Racket News</title>
   <description>Racket News: Racket News</description>
   <link>https://racket-news.com/index.html</link>
-  <lastBuildDate>Fri, 12 Apr 2019 17:00:00 UT</lastBuildDate>
-  <pubDate>Fri, 12 Apr 2019 17:00:00 UT</pubDate>
+  <lastBuildDate>Wed, 01 May 2019 08:00:00 UT</lastBuildDate>
+  <pubDate>Wed, 01 May 2019 08:00:00 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Racket News - Issue 7</title>
+   <link>https://racket-news.com/2019/05/racket-news-issue-7.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-racket-news-com:-2019-05-racket-news-issue-7-html</guid>
+   <pubDate>Wed, 01 May 2019 08:00:00 UT</pubDate>
+   <author>Paulo Matos</author>
+   <description>
+&lt;p&gt;Welcome to the seventh issue of &lt;a href="https://www.racket-lang.org"&gt;Racket&lt;/a&gt; News.&lt;/p&gt;
+
+&lt;p&gt;There was a lot happening in the last two weeks and honestly I am still a bit lost as I just recently returned from holidays. Therefore if I missed something this week make sure to let me know so I can feature it in the next issue.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t managed to get to the issue of tracking statistics besides &lt;a href="https://github.com/racket/racket"&gt;racket/racket&lt;/a&gt; yet. I will try to get this done for issue 9.&lt;/p&gt;
+
+&lt;p&gt;Is it a bank holiday where you are as well? Time for a longer coffee break than usual? Why don&amp;rsquo;t you try an Americano today? Go on, get one and enjoy!&lt;/p&gt;
+
+&lt;h1 id="table-of-contents"&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;&lt;a href="#whatsnew"&gt;What&amp;rsquo;s New?&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#aroundtheweb"&gt;Racket Around the Web&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#newreleases"&gt;New Releases&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#spotlight"&gt;Project in the Spotlight&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#featuredpaper"&gt;Featured Racket Paper&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#meetups"&gt;Upcoming Meetups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#helpneeded"&gt;Help Needed&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#stats"&gt;Racket Project Statistics&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#jobs"&gt;Racket Jobs&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;div id="whatsnew"&gt;&lt;/div&gt;
+
+&lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Racket v7.3 is &lt;a href="https://groups.google.com/d/msg/racket-dev/peLKYQz6IDI/RkGFVJ3_AgAJ"&gt;now out for testing&lt;/a&gt; with release candidates at &lt;a href="https://pre-release.racket-lang.org"&gt;https://pre-release.racket-lang.org&lt;/a&gt;;&lt;/li&gt;
+ &lt;li&gt;Jay has &lt;a href="https://groups.google.com/d/msg/racket-users/-twSI6Rxtbw/Sp3lHyCRBgAJ"&gt;announced&lt;/a&gt; the speakers for &lt;a href="https://con.racket-lang.org/"&gt;RacketCon&lt;/a&gt;! Check them out; ** Also related, Jay &lt;a href="https://groups.google.com/d/msg/racket-users/-uLG0rihCdE/hdkvT_MECAAJ"&gt;announced&lt;/a&gt; that there&amp;rsquo;s a block of rooms available for RacketCon and some Univ. of Utah dorms for Racket School;&lt;/li&gt;
+ &lt;li&gt;RacketCS &lt;a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/fhxC-sI8CgAJ"&gt;used&lt;/a&gt; a ChezScheme fork from Matthew Flatt&amp;rsquo;s account but this has not moved to fork in the Racket organization account. So if you have a clone of the repo in &lt;code&gt;racket/src/build/ChezScheme&lt;/code&gt; don&amp;rsquo;t forget to switch the remote: &lt;code&gt;cd racket/src/build/ChezScheme
+git remote set-url origin https://github.com/racket/ChezScheme&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Thanks to Alex Shopov, Racket News Issue 6 was featured in &lt;a href="https://lwn.net/Articles/785683/"&gt;Linux Weekly News (LWN)&lt;/a&gt;;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="aroundtheweb"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-around-the-web"&gt;Racket around the web&lt;/h1&gt;
+
+&lt;p&gt;Do you blog about Racket? &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://alex-hhh.github.io/2019/04/build-racket-packages-with-azure-pipelines.html"&gt;Build Racket Packages with Azure Pipelines&lt;/a&gt; by Alex Harsaanyi;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://lexi-lambda.github.io/blog/2019/04/21/defeating-racket-s-separate-compilation-guarantee/"&gt;Defeating Racket’s separate compilation guarantee&lt;/a&gt; by Alexis King;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://los-pajaros-de-hogano.blogspot.com/2019/04/from-htdp-to-racket-isbn-extraction-in.html"&gt;From HtDP to Racket. ISBN extraction in ISL+&lt;/a&gt; by Luis Sanjuan;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://www.travishinkelman.com/post/microbenchmarking-in-r-and-racket/"&gt;A simple microbenchmarking function in Racket&lt;/a&gt; by Travis Hinkelman;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://www.greghendershott.com/2019/04/supporting-multi-in.html"&gt;Supporting multi-in&lt;/a&gt; by Greg Hendershott;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="newreleases"&gt;&lt;/div&gt;
+
+&lt;h1 id="new-releases"&gt;New Releases&lt;/h1&gt;
+
+&lt;p&gt;If you know of library releases or maybe your own libraries and you want them to be featured, please &lt;a href="mailto:pmatos@linki.tools"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id="spotlight"&gt;&lt;/div&gt;
+
+&lt;h1 id="project-in-the-spotlight"&gt;Project in the Spotlight&lt;/h1&gt;
+
+&lt;p&gt;This week&amp;rsquo;s project in the spotlight is &lt;a href="https://lang.video"&gt;#lang video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From the website: &amp;gt; Video is a DSL for describing videos. It is still under heavy development. The API is becoming more stable. Features may get deprecated, but will be marked well before remove. (See the CONTRIBUTING.md file for details.) This ReadMe is for stable builds of video except for the Nightly Development Badges section.&lt;/p&gt;
+
+&lt;p&gt;And there&amp;rsquo;s &lt;a href="https://docs.racket-lang.org/video@video/index.html"&gt;great documentation&lt;/a&gt;, a &lt;a href="https://www.youtube.com/watch?v=OZXslNVaCOQ"&gt;presentation&lt;/a&gt; at RacketCon and even &lt;a href="https://www.redbubble.com/people/leifandersen/works/30461319-video-lang-swag?p=t-shirt"&gt;swag&lt;/a&gt;. If your thing is making videos, what are you waiting for?&lt;/p&gt;
+
+&lt;div id="featuredpaper"&gt;&lt;/div&gt;
+
+&lt;h1 id="featured-racket-paper"&gt;Featured Racket Paper&lt;/h1&gt;
+
+&lt;p&gt;This one is an oldie but a goody and I remember reading it when it was published, not understand most of it but already feeling englightened. I have since read it a couple more times&amp;hellip; it&amp;rsquo;s worth it!&lt;/p&gt;
+
+&lt;p&gt;From Shriram Krishnamurti we have the Functional Pearl &lt;a href="https://cs.brown.edu/~sk/Publications/Papers/Published/sk-automata-macros/paper.pdf"&gt;Automata via Macros&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Abstract:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;Lisp programmers have long used macros to extend their language. Indeed, their success has inspired macro notations for a variety of other languages, such as C and Java. There is, however, a paucity of effective pedagogic examples of macro use. This paper presents a short, non-trivial example that implements a construct not already found in mainstream languages. Furthermore, it motivates the need for tail-calls, as opposed to mere tail-recursion, and illustrates how support for tail-call optimization is crucial to support a natural style of macro-based language extension.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Please note I am not hosting any of these files, but instead I am linking to the PDFs hosted by the researchers themselves. If you think there is a better way to do this or if I should host the files myself, &lt;a href="mailto:pmatos@linki.tools"&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id="meetups"&gt;&lt;/div&gt;
+
+&lt;h1 id="upcoming-meetups"&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;p&gt;Racket School and RacketCon tickets are now for sale in a website near you. Click on the links below!&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://school.racket-lang.org/"&gt;Racket School 2019&lt;/a&gt; - taught by Racket heavyweights it&amp;rsquo;s your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 8&amp;ndash;12.&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2019&lt;/a&gt; - taking place in Salt Lake City, US on July 13, 14, just after Racket School.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="helpneeded"&gt;&lt;/div&gt;
+
+&lt;h1 id="help-needed"&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors or help with a task? I would love to hear about it.&lt;/p&gt;
+
+&lt;div id="stats"&gt;&lt;/div&gt;
+
+&lt;h1 id="racket-project-statistics"&gt;Racket Project Statistics&lt;/h1&gt;
+
+&lt;p&gt;Some data about the activity in the &lt;a href="https://github.com/racket/racket"&gt;Racket repository&lt;/a&gt; for the month of April, 2019.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of master Commits&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;11&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Merged PRs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;19&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Opened Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Number of Closed Bugs&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;Bugs open - currently&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;314&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;PRs open - currently&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt; 
+  &lt;td&gt;99&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Contributions by (12):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Alexis King&lt;/li&gt;
+ &lt;li&gt;Alex Knauth&lt;/li&gt;
+ &lt;li&gt;Ben Greenman&lt;/li&gt;
+ &lt;li&gt;Gustavo Massaccesi&lt;/li&gt;
+ &lt;li&gt;John Clements&lt;/li&gt;
+ &lt;li&gt;Matthew Flatt&lt;/li&gt;
+ &lt;li&gt;Matthias Felleisen&lt;/li&gt;
+ &lt;li&gt;Paulo Matos&lt;/li&gt;
+ &lt;li&gt;Philip McGrath&lt;/li&gt;
+ &lt;li&gt;Robby Findler&lt;/li&gt;
+ &lt;li&gt;Ryan Culpepper&lt;/li&gt;
+ &lt;li&gt;Vladilen Kozin&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Of which, making the list the first time this year (1):&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Vladilen Kozin&lt;/li&gt;&lt;/ul&gt;
+
+&lt;div id="jobs"&gt;&lt;/div&gt;
+
+&lt;h1 id="jobs"&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/issues"&gt;submit an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="contributors"&gt;Contributors&lt;/h1&gt;
+
+&lt;p&gt;Thanks to&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Jérôme Martin&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;for his contributions to this issue.&lt;/p&gt;
+
+&lt;h1 id="disclaimer"&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT Team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket lang recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</description></item>
   <item>
    <title>Racket News - Issue 6</title>
    <link>https://racket-news.com/2019/04/racket-news-issue-6.html?utm_source=all&amp;utm_medium=RSS</link>

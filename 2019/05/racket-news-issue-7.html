@@ -5,14 +5,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport"    content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Welcome to the sixth issue of Racket News.  Surprise! I mentioned last issue that I might not be able to put out this issue mid-month due to travel arrangements but it turns out that the available content more than warrants an issue, even if it is coming ...">
+    <meta name="description" content="Welcome to the seventh issue of Racket News.  There was a lot happening in the last two weeks and honestly I am still a bit lost as I just recently returned from holidays. Therefore if I missed something this week make sure to let me know so I can feature...">
     <meta name="author"      content="Paulo Matos">
     <meta name="keywords"    content="">
 
-    <title>Racket News - Issue 6</title>
+    <title>Racket News - Issue 7</title>
 
     <link rel="icon"      href="/favicon.png">
-    <link rel="canonical" href="https://racket-news.com/2019/04/racket-news-issue-6.html">
+    <link rel="canonical" href="https://racket-news.com/2019/05/racket-news-issue-7.html">
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -80,7 +80,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
               <img id="logo" src="/logo.png">
-              <h1>Racket News - Issue 6</h1>
+              <h1>Racket News - Issue 7</h1>
             </div>
           </div>
         </div>
@@ -95,26 +95,17 @@
           <article>
   <header>
     <p class='date-and-tags'>
-<time datetime="2019-04-12" pubdate="true">2019-04-12</time></p>
+<time datetime="2019-05-01" pubdate="true">2019-05-01</time></p>
   </header>
-  <small>Permalink: <a href="https://racket-news.com/2019/04/racket-news-issue-6.html">https://racket-news.com/2019/04/racket-news-issue-6.html</a></small>
+  <small>Permalink: <a href="https://racket-news.com/2019/05/racket-news-issue-7.html">https://racket-news.com/2019/05/racket-news-issue-7.html</a></small>
 
-<p>Welcome to the sixth issue of <a href="https://www.racket-lang.org">Racket</a> News.</p>
+<p>Welcome to the seventh issue of <a href="https://www.racket-lang.org">Racket</a> News.</p>
 
-<p>Surprise! I mentioned last issue that I might not be able to put out this issue mid-month due to travel arrangements but it turns out that the available content more than warrants an issue, even if it is coming a few days earlier. Hey, the Racket world doesn&rsquo;t stop spinning!</p>
+<p>There was a lot happening in the last two weeks and honestly I am still a bit lost as I just recently returned from holidays. Therefore if I missed something this week make sure to let me know so I can feature it in the next issue.</p>
 
-<p>I will however, stop spinning for a bit so it&rsquo;s likely I won&rsquo;t be replying to any emails for the next week or so.</p>
+<p>I haven&rsquo;t managed to get to the issue of tracking statistics besides <a href="https://github.com/racket/racket">racket/racket</a> yet. I will try to get this done for issue 9.</p>
 
-<p>Before we get going there&rsquo;s an important issue I would like to raise. I was pointed out to the fact that I, unfairly, only name contributors to the main racket repository. And yet racket is made of several repositories so many contributors are left out. I am more than happy to add more repositories to the statistics I track but would like some suggestions.</p>
-
-<ul>
- <li>Which repositories to track? At the moment there are 111 repositories listed in <a href="https://github.com/racket">https://github.com/racket</a> - which repositories should we select and which should we ignore. An important point here is that I don&rsquo;t want to make half the newsletter simply about repo statistics, which brings us to the second point;</li>
- <li>Shall I name contributors to other repos and present repo statistics like open issues, merged PRs, etc for the main racket repo only? Or would you like to see repo statistics for other repositories as well?</li>
- <li>For this issue, I only mention the main racket repo but with some feedback on the above questions I will able to better organize the section for next issue, coming to you on the 1st of May.</li></ul>
-
-<p>If there&rsquo;s something you really dislike, or something you want to see added to the newsletter please <a href="mailto:pmatos@linki.tools">send me an email</a> or <a href="https://github.com/racket-news/racket-news.github.io-src/issues">submit an issue</a>.</p>
-
-<p>Grab yourself a cappuccino and lets get started!</p>
+<p>Is it a bank holiday where you are as well? Time for a longer coffee break than usual? Why don&rsquo;t you try an Americano today? Go on, get one and enjoy!</p>
 
 <h1 id="table-of-contents">Table of Contents</h1>
 
@@ -134,8 +125,11 @@
 <h1 id="whats-new">What&rsquo;s New?</h1>
 
 <ul>
- <li>Jay McCarthy has <a href="https://groups.google.com/d/msg/racket-dev/HuX_KUY2vbY/uj0TryysBgAJ">posted on the mailing list</a> a little guide on how to contribute to improve support of Racket on Chez. If you have some time in your hands and would like to learn some more about the innards of Racket, take a look!</li>
- <li>I have <a href="https://groups.google.com/d/msg/racket-dev/9aXta95PxlM/EPtEe28uCAAJ">posted on the mailing list</a> about the work I have done in Racket CI on Gitlab. If you are interested in CI, take a look and <a href="mailto:pmatos@linki.tools">get in touch</a> if you want to help.</li></ul>
+ <li>Racket v7.3 is <a href="https://groups.google.com/d/msg/racket-dev/peLKYQz6IDI/RkGFVJ3_AgAJ">now out for testing</a> with release candidates at <a href="https://pre-release.racket-lang.org">https://pre-release.racket-lang.org</a>;</li>
+ <li>Jay has <a href="https://groups.google.com/d/msg/racket-users/-twSI6Rxtbw/Sp3lHyCRBgAJ">announced</a> the speakers for <a href="https://con.racket-lang.org/">RacketCon</a>! Check them out; ** Also related, Jay <a href="https://groups.google.com/d/msg/racket-users/-uLG0rihCdE/hdkvT_MECAAJ">announced</a> that there&rsquo;s a block of rooms available for RacketCon and some Univ. of Utah dorms for Racket School;</li>
+ <li>RacketCS <a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/fhxC-sI8CgAJ">used</a> a ChezScheme fork from Matthew Flatt&rsquo;s account but this has not moved to fork in the Racket organization account. So if you have a clone of the repo in <code>racket/src/build/ChezScheme</code> don&rsquo;t forget to switch the remote: <code>cd racket/src/build/ChezScheme
+git remote set-url origin https://github.com/racket/ChezScheme</code></li>
+ <li>Thanks to Alex Shopov, Racket News Issue 6 was featured in <a href="https://lwn.net/Articles/785683/">Linux Weekly News (LWN)</a>;</li></ul>
 
 <div id="aroundtheweb"></div>
 
@@ -144,8 +138,11 @@
 <p>Do you blog about Racket? <a href="mailto:pmatos@linki.tools">Let me know!</a></p>
 
 <ul>
- <li><a href="https://github.com/greghendershott/frog">Frog</a>, our beloved static site generated is not going anywhere but Greg is experimenting with a different type of system - which you can read about in his more recent post: <a href="https://www.greghendershott.com/2019/04/exploding-frog.html">Exploding frog</a>!</li>
- <li>Travis Hinkelman has been publishing a few Racket posts which I have missed in the past - the latest one being <a href="https://www.travishinkelman.com/post/generating-random-numbers-r-racket/">Generating random numbers in R and Racket</a>. If you have time, take a look at his <a href="https://www.travishinkelman.com/post/">blog</a>, he has more Racket goodies in there.</li></ul>
+ <li><a href="https://alex-hhh.github.io/2019/04/build-racket-packages-with-azure-pipelines.html">Build Racket Packages with Azure Pipelines</a> by Alex Harsaanyi;</li>
+ <li><a href="https://lexi-lambda.github.io/blog/2019/04/21/defeating-racket-s-separate-compilation-guarantee/">Defeating Racket’s separate compilation guarantee</a> by Alexis King;</li>
+ <li><a href="https://los-pajaros-de-hogano.blogspot.com/2019/04/from-htdp-to-racket-isbn-extraction-in.html">From HtDP to Racket. ISBN extraction in ISL+</a> by Luis Sanjuan;</li>
+ <li><a href="https://www.travishinkelman.com/post/microbenchmarking-in-r-and-racket/">A simple microbenchmarking function in Racket</a> by Travis Hinkelman;</li>
+ <li><a href="https://www.greghendershott.com/2019/04/supporting-multi-in.html">Supporting multi-in</a> by Greg Hendershott;</li></ul>
 
 <div id="newreleases"></div>
 
@@ -157,35 +154,24 @@
 
 <h1 id="project-in-the-spotlight">Project in the Spotlight</h1>
 
-<p>This week&rsquo;s project in the spotlight is <a href="https://github.com/mbutterick/brag">brag: a better Racket AST generator</a> by Danny Yoo and Matthew Butterick.</p>
+<p>This week&rsquo;s project in the spotlight is <a href="https://lang.video">#lang video</a>.</p>
 
-<p>From the documentation:</p>
+<p>From the website: &gt; Video is a DSL for describing videos. It is still under heavy development. The API is becoming more stable. Features may get deprecated, but will be marked well before remove. (See the CONTRIBUTING.md file for details.) This ReadMe is for stable builds of video except for the Nightly Development Badges section.</p>
 
-<blockquote>
- <p>brag is a parser generator designed to be easy to use:</p>
- <ul>
-  <li>
-   <p>It provides a <code>#lang</code> for writing BNF grammars. A module written in <code>#lang brag</code> automatically generates a parser. The grammar controls the structure of the syntax objects it generates.</p></li>
-  <li>
-   <p>The language uses a few conventions to simplify the expression of grammars. The first rule in the grammar is assumed to be the starting production. Identifiers in UPPERCASE are treated as terminal tokens. All other identifiers are treated as nonterminals.</p></li>
-  <li>
-   <p>Tokenizers can be developed independently of parsers. brag takes a liberal view on tokens: they can be strings, symbols, or instances constructed with <code>token</code>. Tokens can optionally provide source location, in which case a syntax object generated by the parser will too.</p></li>
-  <li>
-   <p>The parser can usually handle ambiguous grammars.</p></li>
-  <li>
-   <p>It integrates with the rest of the Racket language toolchain.</p></li></ul></blockquote>
+<p>And there&rsquo;s <a href="https://docs.racket-lang.org/video@video/index.html">great documentation</a>, a <a href="https://www.youtube.com/watch?v=OZXslNVaCOQ">presentation</a> at RacketCon and even <a href="https://www.redbubble.com/people/leifandersen/works/30461319-video-lang-swag?p=t-shirt">swag</a>. If your thing is making videos, what are you waiting for?</p>
 
 <div id="featuredpaper"></div>
 
 <h1 id="featured-racket-paper">Featured Racket Paper</h1>
 
-<p>The paper for this week <a href="http://jeapostrophe.github.io/home/static/icfp065-mccarthy.pdf">Automatically RESTful Web Applications: Marking Modular Serializable Continuations</a> by <em>Jay McCarthy</em> from ICFP&rsquo;09.</p>
+<p>This one is an oldie but a goody and I remember reading it when it was published, not understand most of it but already feeling englightened. I have since read it a couple more times&hellip; it&rsquo;s worth it!</p>
+
+<p>From Shriram Krishnamurti we have the Functional Pearl <a href="https://cs.brown.edu/~sk/Publications/Papers/Published/sk-automata-macros/paper.pdf">Automata via Macros</a>.</p>
 
 <p>Abstract:</p>
 
 <blockquote>
- <p>Continuation-based Web servers provide distinct advantages over traditional Web application development: expressive power and modularity. This power leads to fewer errors and more interesting applications. Furthermore, these Web servers are more than prototypes; they are used in some real commercial applications. Unfortunately, they pay a heavy price for the additional power in the form of lack of scalability.</p>
- <p>We fix this key problem with a modular program transformation that produces scalable, continuation-based Web programs based on the REST architecture. Our programs use the same features as non-scalable, continuation-based Web programs, so we do not sacrifice expressive power for performance. In particular, we allow continuation marks in Web programs. Our system uses 10 percent (or less) of the memory required by previous approaches.</p></blockquote>
+ <p>Lisp programmers have long used macros to extend their language. Indeed, their success has inspired macro notations for a variety of other languages, such as C and Java. There is, however, a paucity of effective pedagogic examples of macro use. This paper presents a short, non-trivial example that implements a construct not already found in mainstream languages. Furthermore, it motivates the need for tail-calls, as opposed to mere tail-recursion, and illustrates how support for tail-call optimization is crucial to support a natural style of macro-based language extension.</p></blockquote>
 
 <p>Please note I am not hosting any of these files, but instead I am linking to the PDFs hosted by the researchers themselves. If you think there is a better way to do this or if I should host the files myself, <a href="mailto:pmatos@linki.tools">drop me a line</a>.</p>
 
@@ -205,6 +191,63 @@
 
 <p>Do you know a project looking for contributors or help with a task? I would love to hear about it.</p>
 
+<div id="stats"></div>
+
+<h1 id="racket-project-statistics">Racket Project Statistics</h1>
+
+<p>Some data about the activity in the <a href="https://github.com/racket/racket">Racket repository</a> for the month of April, 2019.</p>
+
+<table>
+ <tr>
+  <td>Number of master Commits</td>
+  <td>&nbsp;</td> 
+  <td>102</td></tr>
+ <tr>
+  <td>Number of Opened PRs</td>
+  <td>&nbsp;</td> 
+  <td>11</td></tr>
+ <tr>
+  <td>Number of Merged PRs</td>
+  <td>&nbsp;</td> 
+  <td>19</td></tr>
+ <tr>
+  <td>Number of Opened Bugs</td>
+  <td>&nbsp;</td> 
+  <td>23</td></tr>
+ <tr>
+  <td>Number of Closed Bugs</td>
+  <td>&nbsp;</td> 
+  <td>21</td></tr>
+ <tr>
+  <td>Bugs open - currently</td>
+  <td>&nbsp;</td> 
+  <td>314</td></tr>
+ <tr>
+  <td>PRs open - currently</td>
+  <td>&nbsp;</td> 
+  <td>99</td></tr></table>
+
+<p>Contributions by (12):</p>
+
+<ul>
+ <li>Alexis King</li>
+ <li>Alex Knauth</li>
+ <li>Ben Greenman</li>
+ <li>Gustavo Massaccesi</li>
+ <li>John Clements</li>
+ <li>Matthew Flatt</li>
+ <li>Matthias Felleisen</li>
+ <li>Paulo Matos</li>
+ <li>Philip McGrath</li>
+ <li>Robby Findler</li>
+ <li>Ryan Culpepper</li>
+ <li>Vladilen Kozin</li></ul>
+
+<p>Of which, making the list the first time this year (1):</p>
+
+<ul>
+ <li>Vladilen Kozin</li></ul>
+
 <div id="jobs"></div>
 
 <h1 id="jobs">Jobs</h1>
@@ -216,49 +259,9 @@
 <p>Thanks to</p>
 
 <ul>
- <li>Gustavo Massaccesi</li>
- <li>Jérôme Martin</li>
- <li>Jesse Alama</li>
- <li>Travis Hinkelman</li></ul>
+ <li>Jérôme Martin</li></ul>
 
-<p>for their contributions to this issue.</p>
-
-<div id="stats"></div>
-
-<h1 id="racket-project-statistics">Racket Project Statistics</h1>
-
-<p>Some data about the activity in the <a href="https://github.com/racket/racket">Racket repository</a> since the last issue.</p>
-
-<table>
- <tr>
-  <td>Number of master Commits</td>
-  <td>&nbsp;</td> 
-  <td>34</td></tr>
- <tr>
-  <td>Bugs open</td>
-  <td>&nbsp;</td> 
-  <td>309</td></tr>
- <tr>
-  <td>PRs open</td>
-  <td>&nbsp;</td> 
-  <td>96</td></tr></table>
-
-<p>Contributions by (8):</p>
-
-<ul>
- <li>Alexis King</li>
- <li>Alex Knauth</li>
- <li>Gustavo Massaccesi</li>
- <li>John Clements</li>
- <li>Matthew Flatt</li>
- <li>Matthias Felleisen</li>
- <li>Paulo Matos</li>
- <li>Vladilen Kozin</li></ul>
-
-<p>Of which, making the list the first time this year (1):</p>
-
-<ul>
- <li>Vladilen Kozin</li></ul>
+<p>for his contributions to this issue.</p>
 
 <h1 id="disclaimer">Disclaimer</h1>
 
@@ -279,24 +282,19 @@
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="https://racket-news.com/2019/04/racket-news-issue-6.html"
+       data-url="https://racket-news.com/2019/05/racket-news-issue-7.html"
        data-dnt="true">
       "Tweet"</a>
     <div class="row justify-content-center">
       <nav aria-label="Page Navigation">
         <ul class="pagination">
           <li class="page-item">
-            <a class="page-link" href="/2019/04/racket-news-issue-5.html"
+            <a class="page-link" href="/2019/04/racket-news-issue-6.html"
                aria-label="Previous">
-              <span aria-hidden="true">&larr; Racket News - Issue 5</span>
+              <span aria-hidden="true">&larr; Racket News - Issue 6</span>
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="/2019/05/racket-news-issue-7.html"
-               aria-label="Next">
-              <span aria-hidden="true">Racket News - Issue 7 &rarr;</span>
-            </a>
-          </li>
+
         </ul>
       </nav>
     </div>

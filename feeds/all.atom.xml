@@ -41,7 +41,9 @@
 
 &lt;ul&gt;
  &lt;li&gt;Racket v7.3 is &lt;a href="https://groups.google.com/d/msg/racket-dev/peLKYQz6IDI/RkGFVJ3_AgAJ"&gt;now out for testing&lt;/a&gt; with release candidates at &lt;a href="https://pre-release.racket-lang.org"&gt;https://pre-release.racket-lang.org&lt;/a&gt;;&lt;/li&gt;
- &lt;li&gt;Jay has &lt;a href="https://groups.google.com/d/msg/racket-users/-twSI6Rxtbw/Sp3lHyCRBgAJ"&gt;announced&lt;/a&gt; the speakers for &lt;a href="https://con.racket-lang.org/"&gt;RacketCon&lt;/a&gt;! Check them out; ** Also related, Jay &lt;a href="https://groups.google.com/d/msg/racket-users/-uLG0rihCdE/hdkvT_MECAAJ"&gt;announced&lt;/a&gt; that there&amp;rsquo;s a block of rooms available for RacketCon and some Univ. of Utah dorms for Racket School;&lt;/li&gt;
+ &lt;li&gt;Jay has &lt;a href="https://groups.google.com/d/msg/racket-users/-twSI6Rxtbw/Sp3lHyCRBgAJ"&gt;announced&lt;/a&gt; the speakers for &lt;a href="https://con.racket-lang.org/"&gt;RacketCon&lt;/a&gt;! Check them out;
+  &lt;ul&gt;
+   &lt;li&gt;Also related, Jay &lt;a href="https://groups.google.com/d/msg/racket-users/-uLG0rihCdE/hdkvT_MECAAJ"&gt;announced&lt;/a&gt; that there&amp;rsquo;s a block of rooms available for RacketCon and some Univ. of Utah dorms for Racket School;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
  &lt;li&gt;RacketCS &lt;a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/fhxC-sI8CgAJ"&gt;used&lt;/a&gt; a ChezScheme fork from Matthew Flatt&amp;rsquo;s account but this has not moved to fork in the Racket organization account. So if you have a clone of the repo in &lt;code&gt;racket/src/build/ChezScheme&lt;/code&gt; don&amp;rsquo;t forget to switch the remote: &lt;code&gt;cd racket/src/build/ChezScheme
 git remote set-url origin https://github.com/racket/ChezScheme&lt;/code&gt;&lt;/li&gt;
  &lt;li&gt;Thanks to Alex Shopov, Racket News Issue 6 was featured in &lt;a href="https://lwn.net/Articles/785683/"&gt;Linux Weekly News (LWN)&lt;/a&gt;;&lt;/li&gt;&lt;/ul&gt;

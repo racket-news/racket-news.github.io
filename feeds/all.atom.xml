@@ -44,8 +44,12 @@
  &lt;li&gt;Jay has &lt;a href="https://groups.google.com/d/msg/racket-users/-twSI6Rxtbw/Sp3lHyCRBgAJ"&gt;announced&lt;/a&gt; the speakers for &lt;a href="https://con.racket-lang.org/"&gt;RacketCon&lt;/a&gt;! Check them out;
   &lt;ul&gt;
    &lt;li&gt;Also related, Jay &lt;a href="https://groups.google.com/d/msg/racket-users/-uLG0rihCdE/hdkvT_MECAAJ"&gt;announced&lt;/a&gt; that there&amp;rsquo;s a block of rooms available for RacketCon and some Univ. of Utah dorms for Racket School;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
- &lt;li&gt;RacketCS &lt;a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/fhxC-sI8CgAJ"&gt;used&lt;/a&gt; a ChezScheme fork from Matthew Flatt&amp;rsquo;s account but this has not moved to fork in the Racket organization account. So if you have a clone of the repo in &lt;code&gt;racket/src/build/ChezScheme&lt;/code&gt; don&amp;rsquo;t forget to switch the remote: &lt;code&gt;cd racket/src/build/ChezScheme
-git remote set-url origin https://github.com/racket/ChezScheme&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;RacketCS &lt;a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/fhxC-sI8CgAJ"&gt;used&lt;/a&gt; a ChezScheme fork from Matthew Flatt&amp;rsquo;s account but this has not moved to fork in the Racket organization account. So if you have a clone of the repo in &lt;code&gt;racket/src/build/ChezScheme&lt;/code&gt; don&amp;rsquo;t forget to switch the remote:&lt;/li&gt;&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;cd racket/src/build/ChezScheme
+git remote set-url origin https://github.com/racket/ChezScheme&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
  &lt;li&gt;Thanks to Alex Shopov, Racket News Issue 6 was featured in &lt;a href="https://lwn.net/Articles/785683/"&gt;Linux Weekly News (LWN)&lt;/a&gt;;&lt;/li&gt;&lt;/ul&gt;
 
 &lt;div id="aroundtheweb"&gt;&lt;/div&gt;
@@ -73,7 +77,10 @@ git remote set-url origin https://github.com/racket/ChezScheme&lt;/code&gt;&lt;/
 
 &lt;p&gt;This week&amp;rsquo;s project in the spotlight is &lt;a href="https://lang.video"&gt;#lang video&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;From the website: &amp;gt; Video is a DSL for describing videos. It is still under heavy development. The API is becoming more stable. Features may get deprecated, but will be marked well before remove. (See the CONTRIBUTING.md file for details.) This ReadMe is for stable builds of video except for the Nightly Development Badges section.&lt;/p&gt;
+&lt;p&gt;From the website:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;Video is a DSL for describing videos. It is still under heavy development. The API is becoming more stable. Features may get deprecated, but will be marked well before remove. (See the CONTRIBUTING.md file for details.) This ReadMe is for stable builds of video except for the Nightly Development Badges section.&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;And there&amp;rsquo;s &lt;a href="https://docs.racket-lang.org/video@video/index.html"&gt;great documentation&lt;/a&gt;, a &lt;a href="https://www.youtube.com/watch?v=OZXslNVaCOQ"&gt;presentation&lt;/a&gt; at RacketCon and even &lt;a href="https://www.redbubble.com/people/leifandersen/works/30461319-video-lang-swag?p=t-shirt"&gt;swag&lt;/a&gt;. If your thing is making videos, what are you waiting for?&lt;/p&gt;
 

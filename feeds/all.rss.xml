@@ -40,6 +40,7 @@
 &lt;h1 id="whats-new"&gt;What&amp;rsquo;s New?&lt;/h1&gt;
 
 &lt;ul&gt;
+ &lt;li&gt;&lt;a href="https://blog.racket-lang.org/2019/05/racket-v7-3.html"&gt;Racket 7.3 was released&lt;/a&gt;! Get it installed - if you find a problem, &lt;a href="https://github.com/racket/racket/issues"&gt;report it&lt;/a&gt;.&lt;/li&gt;
  &lt;li&gt;Last month (I forgot to mention this last issue), Matthew Flatt noted that users building RacketCS should switch their ChezScheme repos to &lt;a href="https://github.com/racket/ChezScheme"&gt;https://github.com/racket/ChezScheme&lt;/a&gt; and in the same thread &lt;a href="https://groups.google.com/d/msg/racket-dev/1cgE5Y10xvc/TkWDeXvSCgAJ"&gt;listed some of the open pull requests&lt;/a&gt; that cannot be easily upstreamed to Chez with a brief explanation about each. Very informative if you are interested in the progress of this effort.&lt;/li&gt;&lt;/ul&gt;
 
 &lt;div id="aroundtheweb"&gt;&lt;/div&gt;
@@ -65,7 +66,7 @@
 &lt;blockquote&gt;
  &lt;p&gt;Scribble is a collection of tools for creating prose documents—papers, books, library documentation, etc.—in HTML or PDF (via Latex) form. More generally, Scribble helps you write programs that are rich in textual content, whether the content is prose to be typeset or any other form of text to be generated programmatically.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;Scribble is the tool that powers all the Racket documentation, but its applications are not limited to software documentations. You can write anything you can think of with it.&lt;/p&gt;
+&lt;p&gt;Scribble is the tool that powers all the Racket documentation, but its applications are not limited to software documentation. Scribble is shipped with &lt;a href="https://racket-lang.org"&gt;Racket&lt;/a&gt; so if you have Racket installed, you are good to go. If not, &lt;a href="https://racket-lang.org/download/"&gt;what are you waiting for&lt;/a&gt;?&lt;/p&gt;
 
 &lt;div id="featuredpaper"&gt;&lt;/div&gt;
 
